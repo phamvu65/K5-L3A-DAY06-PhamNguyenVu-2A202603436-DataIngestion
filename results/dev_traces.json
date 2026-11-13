@@ -1,0 +1,2679 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which two kinds of problems can combining process modeling with event data help address?",
+    "expected_answer": "Compliance and performance problems.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 12,
+    "evidence_quote": "new means to tackle compliance and performance problems.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:16:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "ally address observed and predicted problems. The stochastic process models discovered from event data can be used to conduct “what-if” analysis using simulation or other techniques from operations research (e.g., planning). The combination of event data and process models can be used to generate Machine Learning (ML) problems. ML techniques can be used to predict outcomes without being explicitly programmed to do so. The uptake of ML in recent years can be attributed to progress in deep learnin",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.5967683193817066,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "ffs in pro- cess discovery. We already mentioned that most event logs follow a Pareto distribution. Hence, the process model can focus on the dominant behavior or also include excep- tional behavior. The second challenge is that different process model representations can be used. These may or may not be able to capture certain behaviors. This is the so-called rep- resentational bias of process discovery. Consider, for example, event log L =[ a, b, c, d1000, a, c, b, d 1000]. There is no DFG tha",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.5906971427512504,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:45:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 45,
+        "text": "- ing because, in most cases, the event data cannot be assumed to be complete, i.e., we only witnessed example behaviors. There may also be conflicting requirements (e.g., recall, precision, generalization, and simplicity) [ 1, 3]. This makes process discovery both interesting and challenging. Figure 1 positions this chapter. The input for process discovery is a collection of events and the output is a process model. Such a process model can be used to uncover unexpected deviations and bottlenec",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 37
+        },
+        "score": 0.5822933837620143,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which two kinds of problems can combining process modeling with event data help address?",
+    "expected_answer": "Compliance and performance problems.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 12,
+    "evidence_quote": "new means to tackle compliance and performance problems.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:15:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "The combination of a process model and event data can be used to conduct conformance checking and performance analysis (Fig. 2). The process model may have been discovered or made by hand. Discovered process models are descrip- tive and hand-crafted models are often normative. Conformance checking relates events in the event log to activities in the process model and compares both. The goal is to find commonalities and discrepancies between the modeled behavior and the observed behavior.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.6414523625306806,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "Answers to these questions are needed to address the trade-offs in pro- cess discovery. We already mentioned that most event logs follow a Pareto distribution. Hence, the process model can focus on the dominant behavior or also include excep- tional behavior. The second challenge is that different process model representations can be used. These may or may not be able to capture certain behaviors. This is the so-called rep- resentational bias of process discovery.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.6315931009394893,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:12:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 12,
+        "text": "The combination of process modeling and analysis with the event data present in today’s information systems provides new means to tackle compliance and performance problems. This chapter provides an overview of the field of process mining introducing the different types of process mining (e.g., process discovery and conformance checking) and the basic ingredients, i.e., process models and event data.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 3
+        },
+        "score": 0.6036614600766347,
+        "rank": 3,
+        "evidence_hit": true
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which two kinds of problems can combining process modeling with event data help address?",
+    "expected_answer": "Compliance and performance problems.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 12,
+    "evidence_quote": "new means to tackle compliance and performance problems.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:15:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "The combination of a process model and event data can be used to conduct conformance checking and performance analysis (Fig. 2). The process model may have been discovered or made by hand. Discovered process models are descrip- tive and hand-crafted models are often normative. Conformance checking relates events in the event log to activities in the process model and compares both. The goal is to find commonalities and discrepancies between the modeled behavior and the observed behavior.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.6414523625306806,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "Answers to these questions are needed to address the trade-offs in pro- cess discovery. We already mentioned that most event logs follow a Pareto distribution. Hence, the process model can focus on the dominant behavior or also include excep- tional behavior. The second challenge is that different process model representations can be used. These may or may not be able to capture certain behaviors. This is the so-called rep- resentational bias of process discovery.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.6315931009394893,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:12:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 12,
+        "text": "The combination of process modeling and analysis with the event data present in today’s information systems provides new means to tackle compliance and performance problems. This chapter provides an overview of the field of process mining introducing the different types of process mining (e.g., process discovery and conformance checking) and the basic ingredients, i.e., process models and event data.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 3
+        },
+        "score": 0.6036614600766347,
+        "rank": 3,
+        "evidence_hit": true
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "How is process science defined in the handbook?",
+    "expected_answer": "The interdisciplinary study of continuous change.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 14,
+    "evidence_quote": "Process science is the interdisciplinary study of continuous change.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:14:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 14,
+        "text": "nuous change. By process, we mean a coherent series of changes that unfold over time and occur at multiple levels.” In [ 12], we emphasize the following key characteristics of process science: (1) processes are in focus, (2) processes are investigated using scientific methods, (3) an interdisciplinary lens is used, and (4) the goal of process science is to influence and change processes to realize measurable improvements. As stated in [ 2] and visualized in Fig. 1; process min- ing can be viewed",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 5
+        },
+        "score": 0.6193042151768312,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:14:fixed:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 14,
+        "text": "Process Mining: A 360 Degree Overview 5 taking into account ethical, social, legal, and business aspects.” In [ 2], process science is used as an umbrella term to refer to the broader discipline that com- bines knowledge from information technology and knowledge from management sciences to improve and run operational processes. In the more recent [ 12], the following definition is proposed: “Process science is the interdisciplinary study of continuous change. By process, we mean a coherent serie",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 5
+        },
+        "score": 0.5996331737237524,
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:13:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 13,
+        "text": " science. Figure 1 shows that process mining can be seen as the intersection of data science and process science. In [ 2], the following definition is proposed: “Data science is an interdisciplinary field aiming to turn data into real value. Data may be structured or unstructured, big or small, static or streaming. Value may be provided in the form of predictions, automated decisions, models learned from data, or any type of data visualization delivering insights. Data science includes data extr",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 4
+        },
+        "score": 0.5723613091162612,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "How is process science defined in the handbook?",
+    "expected_answer": "The interdisciplinary study of continuous change.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 14,
+    "evidence_quote": "Process science is the interdisciplinary study of continuous change.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:14:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 14,
+        "text": "By process, we mean a coherent series of changes that unfold over time and occur at multiple levels.” In [ 12], we emphasize the following key characteristics of process science: (1) processes are in focus, (2) processes are investigated using scientific methods, (3) an interdisciplinary lens is used, and (4) the goal of process science is to influence and change processes to realize measurable improvements. As stated in [ 2] and visualized in Fig.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 5
+        },
+        "score": 0.6892690816572402,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:14:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 14,
+        "text": "Process Mining: A 360 Degree Overview 5 taking into account ethical, social, legal, and business aspects.” In [ 2], process science is used as an umbrella term to refer to the broader discipline that com- bines knowledge from information technology and knowledge from management sciences to improve and run operational processes. In the more recent [ 12], the following definition is proposed: “Process science is the interdisciplinary study of continuous change.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 5
+        },
+        "score": 0.6016310960107504,
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:13:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 13,
+        "text": "Process mining = data science ∩ process science. Figure 1 shows that process mining can be seen as the intersection of data science and process science. In [ 2], the following definition is proposed: “Data science is an interdisciplinary field aiming to turn data into real value. Data may be structured or unstructured, big or small, static or streaming.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 4
+        },
+        "score": 0.5736157192621929,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "How is process science defined in the handbook?",
+    "expected_answer": "The interdisciplinary study of continuous change.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 14,
+    "evidence_quote": "Process science is the interdisciplinary study of continuous change.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:14:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 14,
+        "text": "By process, we mean a coherent series of changes that unfold over time and occur at multiple levels.” In [ 12], we emphasize the following key characteristics of process science: (1) processes are in focus, (2) processes are investigated using scientific methods, (3) an interdisciplinary lens is used, and (4) the goal of process science is to influence and change processes to realize measurable improvements. As stated in [ 2] and visualized in Fig.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 5
+        },
+        "score": 0.6892690816572402,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:14:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 14,
+        "text": "Process Mining: A 360 Degree Overview 5 taking into account ethical, social, legal, and business aspects.” In [ 2], process science is used as an umbrella term to refer to the broader discipline that com- bines knowledge from information technology and knowledge from management sciences to improve and run operational processes. In the more recent [ 12], the following definition is proposed: “Process science is the interdisciplinary study of continuous change.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 5
+        },
+        "score": 0.6016310960107504,
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:13:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 13,
+        "text": "Process mining = data science ∩ process science. Figure 1 shows that process mining can be seen as the intersection of data science and process science. In [ 2], the following definition is proposed: “Data science is an interdisciplinary field aiming to turn data into real value. Data may be structured or unstructured, big or small, static or streaming.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 4
+        },
+        "score": 0.5736157192621929,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What can be added after discovering the control-flow to make the process model stochastic?",
+    "expected_answer": "Probabilities and delay distributions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 16,
+    "evidence_quote": "the process model can be turned into a stochastic model that includes probabilities and delay distributions.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:59:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 59,
+        "text": "process that we are trying to discover may change over time in unforeseen ways. Certain traces may increase or decrease in likelihood. New trace variants may emerge while other variants no longer occur. Since process models already describe dynamic behavior, concept drift introduces second-order dynamics. V arious techniques for concept-drift detection have been developed. However, this for sure complicates process discovery. If we cannot assume that the process itself is in steady-state, then w",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 51
+        },
+        "score": 0.5755520853472322,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:16:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "ally address observed and predicted problems. The stochastic process models discovered from event data can be used to conduct “what-if” analysis using simulation or other techniques from operations research (e.g., planning). The combination of event data and process models can be used to generate Machine Learning (ML) problems. ML techniques can be used to predict outcomes without being explicitly programmed to do so. The uptake of ML in recent years can be attributed to progress in deep learnin",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.5753447935547286,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:33:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "ed insights. To introduce process discovery, we focus on the control-flow, i.e., the ordering of activities. However, process models may include other perspectives, including time, data, resources, costs, etc. For example, a choice may be based on the attributes of the case or preceding event, and we may attach resource allocation rules to activities (e.g., role information and authorizations). Process discovery may add such perspectives, but we typically try to get clarity on the control-flow f",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.5708983967979162,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What can be added after discovering the control-flow to make the process model stochastic?",
+    "expected_answer": "Probabilities and delay distributions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 16,
+    "evidence_quote": "the process model can be turned into a stochastic model that includes probabilities and delay distributions.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:16:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "The stochastic process models discovered from event data can be used to conduct “what-if” analysis using simulation or other techniques from operations research (e.g., planning). The combination of event data and process models can be used to generate Machine Learning (ML) problems. ML techniques can be used to predict outcomes without being explicitly programmed to do so.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.6017588457999071,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:21:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 21,
+        "text": "Note that the process becomes increas- ingly Spaghetti-like, allowing for process executions different from the BPMN model, the Petri net, and the process tree. Note that, in this section, we focused on control-flow. However, process mod- els can be extended with frequencies, probabilities, decision rules, roles, costs, and time delays (e.g., mean waiting times).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 12
+        },
+        "score": 0.5771583611961197,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:59:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 59,
+        "text": "The behavior of the process that we are trying to discover may change over time in unforeseen ways. Certain traces may increase or decrease in likelihood. New trace variants may emerge while other variants no longer occur. Since process models already describe dynamic behavior, concept drift introduces second-order dynamics. V arious techniques for concept-drift detection have been developed. However, this for sure complicates process discovery.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 51
+        },
+        "score": 0.5757879805204231,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What can be added after discovering the control-flow to make the process model stochastic?",
+    "expected_answer": "Probabilities and delay distributions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 16,
+    "evidence_quote": "the process model can be turned into a stochastic model that includes probabilities and delay distributions.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:16:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "The stochastic process models discovered from event data can be used to conduct “what-if” analysis using simulation or other techniques from operations research (e.g., planning). The combination of event data and process models can be used to generate Machine Learning (ML) problems. ML techniques can be used to predict outcomes without being explicitly programmed to do so.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.6017588457999071,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:21:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 21,
+        "text": "Note that the process becomes increas- ingly Spaghetti-like, allowing for process executions different from the BPMN model, the Petri net, and the process tree. Note that, in this section, we focused on control-flow. However, process mod- els can be extended with frequencies, probabilities, decision rules, roles, costs, and time delays (e.g., mean waiting times).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 12
+        },
+        "score": 0.5771583611961197,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:59:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 59,
+        "text": "The behavior of the process that we are trying to discover may change over time in unforeseen ways. Certain traces may increase or decrease in likelihood. New trace variants may emerge while other variants no longer occur. Since process models already describe dynamic behavior, concept drift introduces second-order dynamics. V arious techniques for concept-drift detection have been developed. However, this for sure complicates process discovery.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 51
+        },
+        "score": 0.5757879805204231,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what must be true of a transition's input places for the transition to be enabled?",
+    "expected_answer": "All input places must be marked.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 18,
+    "evidence_quote": "A transition is enabled if all input places are marked.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:62:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 62,
+        "text": "ransition is called enabled if each of the input places has a token. An enabled transition may fire (i.e., occur), thereby consuming a token from each input place and producing a token for each output place. An accepting Petri net has an initial marking Minit ∈B (P ) and a final marking Mfinal ∈B (P ). The accepting Petri nets AN 1 =( N1, [p1 ], [p6 ]), AN 2 =( N2, [p1 ], [p6 ]), and AN 4 =( N4, [p1 ], [p6 ]) in Fig. 9 have the same initial and final marking. AN 3 =( N3, [p1 , p2 ], [p4 , p5 ]) ",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 54
+        },
+        "score": 0.6713660122793774,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:47:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 47,
+        "text": "ransitions (i.e., squares) correspond to the five activities in the event log. The places (i.e., circles) constrain the behavior. The Petri net allows for the three traces in the event log and nothing more. Initially, only transition a is enabled. When a fires (i.e., occurs), a token is consumed from the input place and a token is produced for each of the two output places. As a result, transitions b, c, and d become enabled. If d fires, both tokens are removed and two tokens are produced for th",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 39
+        },
+        "score": 0.6407127191900409,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:20:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "a process” with two silent transitions (to skip eating the pizza and to add more cheese), and a transition am corresponding to activity add mushrooms. Figure 8 shows a Petri net modeling the extended process. A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur. If as consumes the token from the shared input place, then am gets disabled. If am consumes the to",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6131548934970042,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what must be true of a transition's input places for the transition to be enabled?",
+    "expected_answer": "All input places must be marked.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 18,
+    "evidence_quote": "A transition is enabled if all input places are marked.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:47:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 47,
+        "text": "The places (i.e., circles) constrain the behavior. The Petri net allows for the three traces in the event log and nothing more. Initially, only transition a is enabled. When a fires (i.e., occurs), a token is consumed from the input place and a token is produced for each of the two output places. As a result, transitions b, c, and d become enabled.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 39
+        },
+        "score": 0.6857995405516384,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:20:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "Petri net modeling the extended “pizza process” with two silent transitions (to skip eating the pizza and to add more cheese), and a transition am corresponding to activity add mushrooms. Figure 8 shows a Petri net modeling the extended process. A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6457752075166793,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:62:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 62,
+        "text": "An enabled transition may fire (i.e., occur), thereby consuming a token from each input place and producing a token for each output place. An accepting Petri net has an initial marking Minit ∈B (P ) and a final marking Mfinal ∈B (P ). The accepting Petri nets AN 1 =( N1, [p1 ], [p6 ]), AN 2 =( N2, [p1 ], [p6 ]), and AN 4 =( N4, [p1 ], [p6 ]) in Fig. 9 have the same initial and final marking. AN 3 =( N3, [p1 , p2 ], [p4 , p5 ]) in Fig.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 54
+        },
+        "score": 0.616116036809427,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what must be true of a transition's input places for the transition to be enabled?",
+    "expected_answer": "All input places must be marked.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 18,
+    "evidence_quote": "A transition is enabled if all input places are marked.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:47:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 47,
+        "text": "The places (i.e., circles) constrain the behavior. The Petri net allows for the three traces in the event log and nothing more. Initially, only transition a is enabled. When a fires (i.e., occurs), a token is consumed from the input place and a token is produced for each of the two output places. As a result, transitions b, c, and d become enabled.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 39
+        },
+        "score": 0.6857995405516384,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:20:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "Petri net modeling the extended “pizza process” with two silent transitions (to skip eating the pizza and to add more cheese), and a transition am corresponding to activity add mushrooms. Figure 8 shows a Petri net modeling the extended process. A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6457752075166793,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:62:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 62,
+        "text": "An enabled transition may fire (i.e., occur), thereby consuming a token from each input place and producing a token for each output place. An accepting Petri net has an initial marking Minit ∈B (P ) and a final marking Mfinal ∈B (P ). The accepting Petri nets AN 1 =( N1, [p1 ], [p6 ]), AN 2 =( N2, [p1 ], [p6 ]), and AN 4 =( N4, [p1 ], [p6 ]) in Fig. 9 have the same initial and final marking. AN 3 =( N3, [p1 , p2 ], [p4 , p5 ]) in Fig.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 54
+        },
+        "score": 0.616116036809427,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what happens to the mushrooms transition when salami consumes the shared token?",
+    "expected_answer": "The mushrooms transition is disabled.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 20,
+    "evidence_quote": "A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur. If as consumes the token from the shared input place, then am gets disabled.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:20:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "a process” with two silent transitions (to skip eating the pizza and to add more cheese), and a transition am corresponding to activity add mushrooms. Figure 8 shows a Petri net modeling the extended process. A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur. If as consumes the token from the shared input place, then am gets disabled. If am consumes the to",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6690287390739668,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:20:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "lace, then am gets disabled. If am consumes the token from the shared input place, then as gets disabled. This way, we model the choice between two toppings: salami and mushrooms. Figure 8 also has two new so-called silent transitions denoted by the two black rectangles. Sometimes such silent transitions are denoted as a normal transition with a τ label. Silent transitions do not correspond to activities and are used for routing only, e.g., skipping activities. In Fig. 8, there is one silent tra",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.5741084431258324,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:47:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 47,
+        "text": "ransitions (i.e., squares) correspond to the five activities in the event log. The places (i.e., circles) constrain the behavior. The Petri net allows for the three traces in the event log and nothing more. Initially, only transition a is enabled. When a fires (i.e., occurs), a token is consumed from the input place and a token is produced for each of the two output places. As a result, transitions b, c, and d become enabled. If d fires, both tokens are removed and two tokens are produced for th",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 39
+        },
+        "score": 0.5217454007416424,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what happens to the mushrooms transition when salami consumes the shared token?",
+    "expected_answer": "The mushrooms transition is disabled.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 20,
+    "evidence_quote": "A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur. If as consumes the token from the shared input place, then am gets disabled.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:20:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "Petri net modeling the extended “pizza process” with two silent transitions (to skip eating the pizza and to add more cheese), and a transition am corresponding to activity add mushrooms. Figure 8 shows a Petri net modeling the extended process. A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6810779962744098,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:20:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "If as consumes the token from the shared input place, then am gets disabled. If am consumes the token from the shared input place, then as gets disabled. This way, we model the choice between two toppings: salami and mushrooms. Figure 8 also has two new so-called silent transitions denoted by the two black rectangles. Sometimes such silent transitions are denoted as a normal transition with a τ label.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6396744747245648,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:28:paragraph:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 28,
+        "text": "Consider for example ̃ σpizza-56 = bi, cb, ac, at, as, bo, ep showing the lifecycle of pizza-56 in Table 2. ̃σStefano = bi, cb, cb, bo, bo, cb, bo is the trace corresponding to resource Stefano. ̃ σV alentina = bi, cb, ac, at, as, bo, ep is the trace corresponding to customer Valentina. This trace is now the same as σpizza-56, but this would not be the case if Valentina eats multiple pizzas (e.g., in subsequent visits to the restaurant).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 19
+        },
+        "score": 0.5280446688845095,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what happens to the mushrooms transition when salami consumes the shared token?",
+    "expected_answer": "The mushrooms transition is disabled.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 20,
+    "evidence_quote": "A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur. If as consumes the token from the shared input place, then am gets disabled.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:20:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "Petri net modeling the extended “pizza process” with two silent transitions (to skip eating the pizza and to add more cheese), and a transition am corresponding to activity add mushrooms. Figure 8 shows a Petri net modeling the extended process. A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6810779962744098,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:20:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 20,
+        "text": "If as consumes the token from the shared input place, then am gets disabled. If am consumes the token from the shared input place, then as gets disabled. This way, we model the choice between two toppings: salami and mushrooms. Figure 8 also has two new so-called silent transitions denoted by the two black rectangles. Sometimes such silent transitions are denoted as a normal transition with a τ label.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 11
+        },
+        "score": 0.6396744747245648,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:28:paragraph:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 28,
+        "text": "Consider for example ̃ σpizza-56 = bi, cb, ac, at, as, bo, ep showing the lifecycle of pizza-56 in Table 2. ̃σStefano = bi, cb, cb, bo, bo, cb, bo is the trace corresponding to resource Stefano. ̃ σV alentina = bi, cb, ac, at, as, bo, ep is the trace corresponding to customer Valentina. This trace is now the same as σpizza-56, but this would not be the case if Valentina eats multiple pizzas (e.g., in subsequent visits to the restaurant).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 19
+        },
+        "score": 0.5280446688845095,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which three event attributes are sufficient to discover and check the control-flow perspective?",
+    "expected_answer": "Case, activity, and timestamp.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 22,
+    "evidence_quote": "case (refers to a process instance), activity (refers to the operation, action, or task), and timestamp (when did the event happen). These three attributes are enough to discover and check the control-flow perspective.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:33:fixed:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "typically try to get clarity on the control-flow first. If no reasonable control-flow can be established, one should not try to add additional perspectives. Several process discovery techniques are explained in detail in [ 5,10].",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.6585502892962751,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:33:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "ed insights. To introduce process discovery, we focus on the control-flow, i.e., the ordering of activities. However, process models may include other perspectives, including time, data, resources, costs, etc. For example, a choice may be based on the attributes of the case or preceding event, and we may attach resource allocation rules to activities (e.g., role information and authorizations). Process discovery may add such perspectives, but we typically try to get clarity on the control-flow f",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.5898954009279564,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:40:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 40,
+        "text": "e each trace is a sequence of activities. This format is often used for control-flow discovery. However, in real-life settings it is not so easy to find a single case notion. Often events may refer to multiple objects of different types. There may also be data quality problems and data may be scattered over multiple source systems. Moreover, additional attributes such as costs, time, and resources need to be incorporated in models. We introduced Directly-Follows Graphs (DFG), Petri nets, BPMN mo",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 31
+        },
+        "score": 0.5278512104096754,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which three event attributes are sufficient to discover and check the control-flow perspective?",
+    "expected_answer": "Case, activity, and timestamp.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 22,
+    "evidence_quote": "case (refers to a process instance), activity (refers to the operation, action, or task), and timestamp (when did the event happen). These three attributes are enough to discover and check the control-flow perspective.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:33:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "For example, a choice may be based on the attributes of the case or preceding event, and we may attach resource allocation rules to activities (e.g., role information and authorizations). Process discovery may add such perspectives, but we typically try to get clarity on the control-flow first. If no reasonable control-flow can be established, one should not try to add additional perspectives. Several process discovery techniques are explained in detail in [ 5,10].",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.653708992721461,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:22:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 22,
+        "text": "In this simple example, each event has five attributes: case, activity, timestamp, resource,a n d customer.M o s tp r o - cess mining tools and approaches require at least three attributes: case (refers to a process instance), activity (refers to the operation, action, or task), and timestamp (when did the event happen). These three attributes are enough to discover and check the control-flow perspective.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 13
+        },
+        "score": 0.5797385760553099,
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:21:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 21,
+        "text": "After discovering the control-flow and replaying the event data on the model, it is easy to extend process models with data, resource, cost, and time perspectives.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 12
+        },
+        "score": 0.5569021791571422,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which three event attributes are sufficient to discover and check the control-flow perspective?",
+    "expected_answer": "Case, activity, and timestamp.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 22,
+    "evidence_quote": "case (refers to a process instance), activity (refers to the operation, action, or task), and timestamp (when did the event happen). These three attributes are enough to discover and check the control-flow perspective.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:33:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "For example, a choice may be based on the attributes of the case or preceding event, and we may attach resource allocation rules to activities (e.g., role information and authorizations). Process discovery may add such perspectives, but we typically try to get clarity on the control-flow first. If no reasonable control-flow can be established, one should not try to add additional perspectives. Several process discovery techniques are explained in detail in [ 5,10].",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.653708992721461,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:22:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 22,
+        "text": "In this simple example, each event has five attributes: case, activity, timestamp, resource,a n d customer.M o s tp r o - cess mining tools and approaches require at least three attributes: case (refers to a process instance), activity (refers to the operation, action, or task), and timestamp (when did the event happen). These three attributes are enough to discover and check the control-flow perspective.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 13
+        },
+        "score": 0.5797385760553099,
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:21:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 21,
+        "text": "After discovering the control-flow and replaying the event data on the model, it is easy to extend process models with data, resource, cost, and time perspectives.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 12
+        },
+        "score": 0.5569021791571422,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "condition",
+    "question": "When converting to a simplified event log, which events are excluded because of missing attributes?",
+    "expected_answer": "Events missing a case or an activity attribute.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 26,
+    "evidence_quote": "Events without a case or activity attribute are ignored in the transformation process.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:24:fixed:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 24,
+        "text": "tribute is mandatory. However, when using simplified event logs, we only consider events having a case and activity (with an order derived using timestamps). Assume L =( E, #,≺) is the event log in Table 1. The whole event log has 6400 events, i.e., the table has many more rows. Let E = {e1,e 2,...,e 6400} be the whole set of events and assume the first event shown in Table 1 is e433.# ( e433) is a mapping with dom(#(e433)) = {case, act, time, resource, customer} (the columns shown in the table)",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 15
+        },
+        "score": 0.5881125535603443,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:31:fixed:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 31,
+        "text": "22 W. M. P. van der Aalst Log Trace Event Attribute Extension Key String Date Int Float Boolean Value <contains> <contains> <contains> <contains> <trace-global> <event-global> <defines> <declares> name prefix URI Classifier <defines><defines> Fig. 11. Meta model of XES [ 24]. A log contains traces and each trace contains events [2, 24]. Log, traces, and events have attributes. Extensions may define new attributes and a log should declare the extensions used in it. Global attributes are attribute",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 22
+        },
+        "score": 0.5465261815133555,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:24:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 24,
+        "text": "the last two attributes are not shown in Table 1. and that 2021-09-21T18:10:00+00:00 is abbreviated to 18:10. To be general, we assume that events are partially ordered. Recall that a strict partial order is irreflexive (e ≺ e), transitive (e1 ≺ e2 and e2 ≺ e3 implies e1 ≺ e3), and asymmetric (if e1 ≺ e2, then e2 ≺ e1). Definition 2 (Event Log). An event log is a tuple L =( E, #,≺) consisting of a set of events E ⊆U ev , a mapping # ∈ E →U map , and a strict partial ordering ≺⊆ E × E on events. ",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 15
+        },
+        "score": 0.5208866029412823,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "condition",
+    "question": "When converting to a simplified event log, which events are excluded because of missing attributes?",
+    "expected_answer": "Events missing a case or an activity attribute.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 26,
+    "evidence_quote": "Events without a case or activity attribute are ignored in the transformation process.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:25:paragraph:7",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 25,
+        "text": "An event log with events having any number of attributes (Definition 2)c a n be transformed into a simplified event log by ignoring the additional attributes",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 16
+        },
+        "score": 0.7371185871534826,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:24:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 24,
+        "text": "However, when using simplified event logs, we only consider events having a case and activity (with an order derived using timestamps). Assume L =( E, #,≺) is the event log in Table 1. The whole event log has 6400 events, i.e., the table has many more rows. Let E = {e1,e 2,...,e 6400} be the whole set of events and assume the first event shown in Table 1 is e433.# ( e433) is a mapping with dom(#(e433)) = {case, act, time, resource, customer} (the columns shown in the table).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 15
+        },
+        "score": 0.5677450145369817,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:29:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "– Deficiency: Events in the original event log that have no corresponding events in the flattened event log disappear from the data set (i.e., # ot (e)= ∅). For example, when selecting object type pizza as a case notion, the clean kitchen events disappear from the event log. – Convergence: Events referring to multiple objects of the selected type are replicated, possibly leading to unintentional duplication (i.e., |#ot (e))|≥ 2).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.5548357476949879,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "condition",
+    "question": "When converting to a simplified event log, which events are excluded because of missing attributes?",
+    "expected_answer": "Events missing a case or an activity attribute.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 26,
+    "evidence_quote": "Events without a case or activity attribute are ignored in the transformation process.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:25:paragraph:7",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 25,
+        "text": "An event log with events having any number of attributes (Definition 2)c a n be transformed into a simplified event log by ignoring the additional attributes",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 16
+        },
+        "score": 0.7371185871534826,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:24:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 24,
+        "text": "However, when using simplified event logs, we only consider events having a case and activity (with an order derived using timestamps). Assume L =( E, #,≺) is the event log in Table 1. The whole event log has 6400 events, i.e., the table has many more rows. Let E = {e1,e 2,...,e 6400} be the whole set of events and assume the first event shown in Table 1 is e433.# ( e433) is a mapping with dom(#(e433)) = {case, act, time, resource, customer} (the columns shown in the table).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 15
+        },
+        "score": 0.5677450145369817,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:29:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "– Deficiency: Events in the original event log that have no corresponding events in the flattened event log disappear from the data set (i.e., # ot (e)= ∅). For example, when selecting object type pizza as a case notion, the clean kitchen events disappear from the event log. – Convergence: Events referring to multiple objects of the selected type are replicated, possibly leading to unintentional duplication (i.e., |#ot (e))|≥ 2).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.5548357476949879,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which side of an organization does Purchase-to-Pay concern, and which side does Order-to-Cash concern?",
+    "expected_answer": "Purchase-to-Pay is the buy-side. Order-to-Cash is the sell-side.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 30,
+    "evidence_quote": "The P2P process is concerned with the buy-side of an organization. The O2C process is concerned with the sell-side of a company.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:30:fixed:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 30,
+        "text": "Process Mining: A 360 Degree Overview 21 Let us consider two of the processes almost any organization has: Purchase- to-Pay (P2P) and Order-to-Cash (O2C). The P2P process is concerned with the buy-side of an organization. The O2C process is concerned with the sell-side of a company. In the P2P process the organization is dealing with purchasing documents, items, suppliers, purchase requisitions, contracts, receipts, etc. Note that there may be many purchase orders per supplier and an order may c",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 21
+        },
+        "score": 0.5842496757868709,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:30:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 30,
+        "text": "ny purchase orders per supplier and an order may consist of multiple items. Hence, events may refer to different objects and also multiple objects of the same time. In the O2C process, we can witness similar phenomena. A customer may place three orders on the same day and each order may have several items. Items from different orders may end up in the same delivery. Moreover, items in the same order may end up in different deliveries. P2P and O2C processes are considered simple and there is a lo",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 21
+        },
+        "score": 0.5089179437986668,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:16:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "es by a particular supplier may explain an increase in rework. If “Receive Invoice” often occurs before “Create Pur- chase Requisition”, then this signals a compliance problem in the same process. These are just a few examples. In principle, any process-related problem can be diagnosed as long as event data are available. The right-hand side of Fig. 2 shows that process mining can be used to (1) transform and improve the process and (2) automatically address observed and predicted problems. The ",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.4139544989629662,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which side of an organization does Purchase-to-Pay concern, and which side does Order-to-Cash concern?",
+    "expected_answer": "Purchase-to-Pay is the buy-side. Order-to-Cash is the sell-side.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 30,
+    "evidence_quote": "The P2P process is concerned with the buy-side of an organization. The O2C process is concerned with the sell-side of a company.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:30:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 30,
+        "text": "Process Mining: A 360 Degree Overview 21 Let us consider two of the processes almost any organization has: Purchase- to-Pay (P2P) and Order-to-Cash (O2C). The P2P process is concerned with the buy-side of an organization. The O2C process is concerned with the sell-side of a company. In the P2P process the organization is dealing with purchasing documents, items, suppliers, purchase requisitions, contracts, receipts, etc.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 21
+        },
+        "score": 0.5813681623369709,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:30:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 30,
+        "text": "Note that there may be many purchase orders per supplier and an order may consist of multiple items. Hence, events may refer to different objects and also multiple objects of the same time. In the O2C process, we can witness similar phenomena. A customer may place three orders on the same day and each order may have several items. Items from different orders may end up in the same delivery. Moreover, items in the same order may end up in different deliveries.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 21
+        },
+        "score": 0.4841107004116292,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:16:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "If “Receive Invoice” often occurs before “Create Pur- chase Requisition”, then this signals a compliance problem in the same process. These are just a few examples. In principle, any process-related problem can be diagnosed as long as event data are available. The right-hand side of Fig. 2 shows that process mining can be used to (1) transform and improve the process and (2) automatically address observed and predicted problems.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.43114575975815295,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which side of an organization does Purchase-to-Pay concern, and which side does Order-to-Cash concern?",
+    "expected_answer": "Purchase-to-Pay is the buy-side. Order-to-Cash is the sell-side.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 30,
+    "evidence_quote": "The P2P process is concerned with the buy-side of an organization. The O2C process is concerned with the sell-side of a company.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:30:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 30,
+        "text": "Process Mining: A 360 Degree Overview 21 Let us consider two of the processes almost any organization has: Purchase- to-Pay (P2P) and Order-to-Cash (O2C). The P2P process is concerned with the buy-side of an organization. The O2C process is concerned with the sell-side of a company. In the P2P process the organization is dealing with purchasing documents, items, suppliers, purchase requisitions, contracts, receipts, etc.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 21
+        },
+        "score": 0.5813681623369709,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:30:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 30,
+        "text": "Note that there may be many purchase orders per supplier and an order may consist of multiple items. Hence, events may refer to different objects and also multiple objects of the same time. In the O2C process, we can witness similar phenomena. A customer may place three orders on the same day and each order may have several items. Items from different orders may end up in the same delivery. Moreover, items in the same order may end up in different deliveries.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 21
+        },
+        "score": 0.4841107004116292,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:16:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "If “Receive Invoice” often occurs before “Create Pur- chase Requisition”, then this signals a compliance problem in the same process. These are just a few examples. In principle, any process-related problem can be diagnosed as long as event data are available. The right-hand side of Fig. 2 shows that process mining can be used to (1) transform and improve the process and (2) automatically address observed and predicted problems.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.43114575975815295,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the overview chapter selected, what inputs does conformance checking need and what does it identify?",
+    "expected_answer": "An event log and a process model. It identifies where they disagree.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 34,
+    "evidence_quote": "Conformance checking requires both an event log and a process model as input. The goal is to indicate where log and model disagree.",
+    "filter": {
+      "chapter": "overview"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:34:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 34,
+        "text": "sure. There are many techniques for conformance checking. The two most fre- quently used approaches are token-based replay [32]a n d alignments [6,14]. For token-based replay, the process model is represented as a Petri net and traces in the event log are replayed on the model. If the trace indicates that an activ- ity needs to take place, the corresponding transition is executed. If this is not possible because an input place is empty, a so-called missing token is added. Tokens that are never c",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 25
+        },
+        "score": 0.5217119744327449,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:16:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "elay distributions. After applying conformance checking and performance analysis techniques, users can see performance and compliance problems. It is possible to perform root-cause analysis for such problems. One may find out that critical deviations are often caused by a particular machine or supplier, or that the main bottleneck is caused by poor resource planning or excessive rework for some product types. In a procurement process, price changes by a particular supplier may explain an increas",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.4890636481134054,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:15:fixed:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "checking and performance analysis (Fig. 2). The process model may have been discovered or made by hand. Discovered process models are descrip- tive and hand-crafted models are often normative. Conformance checking relates events in the event log to activities in the process model and compares both. The goal is to find commonalities and discrepancies between the modeled behavior and the observed behavior. If the process model is normative, deviations cor- respond to undesired behavior (e.g., frau",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.4884914444202554,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the overview chapter selected, what inputs does conformance checking need and what does it identify?",
+    "expected_answer": "An event log and a process model. It identifies where they disagree.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 34,
+    "evidence_quote": "Conformance checking requires both an event log and a process model as input. The goal is to indicate where log and model disagree.",
+    "filter": {
+      "chapter": "overview"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:16:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "After applying conformance checking and performance analysis techniques, users can see performance and compliance problems. It is possible to perform root-cause analysis for such problems. One may find out that critical deviations are often caused by a particular machine or supplier, or that the main bottleneck is caused by poor resource planning or excessive rework for some product types. In a procurement process, price changes by a particular supplier may explain an increase in rework.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.5509653801608633,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:15:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "The combination of a process model and event data can be used to conduct conformance checking and performance analysis (Fig. 2). The process model may have been discovered or made by hand. Discovered process models are descrip- tive and hand-crafted models are often normative. Conformance checking relates events in the event log to activities in the process model and compares both. The goal is to find commonalities and discrepancies between the modeled behavior and the observed behavior.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.5089382700651063,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:34:paragraph:7",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 34,
+        "text": "Alignments are often seen as the gold standard for conformance checking because they provide paths through the process model that are as close to the observed behavior as possible. We would like to map observed behavior onto modeled behavior to",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 25
+        },
+        "score": 0.49604427840985255,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the overview chapter selected, what inputs does conformance checking need and what does it identify?",
+    "expected_answer": "An event log and a process model. It identifies where they disagree.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 34,
+    "evidence_quote": "Conformance checking requires both an event log and a process model as input. The goal is to indicate where log and model disagree.",
+    "filter": {
+      "chapter": "overview"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:16:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 16,
+        "text": "After applying conformance checking and performance analysis techniques, users can see performance and compliance problems. It is possible to perform root-cause analysis for such problems. One may find out that critical deviations are often caused by a particular machine or supplier, or that the main bottleneck is caused by poor resource planning or excessive rework for some product types. In a procurement process, price changes by a particular supplier may explain an increase in rework.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 7
+        },
+        "score": 0.5509653801608633,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:15:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "The combination of a process model and event data can be used to conduct conformance checking and performance analysis (Fig. 2). The process model may have been discovered or made by hand. Discovered process models are descrip- tive and hand-crafted models are often normative. Conformance checking relates events in the event log to activities in the process model and compares both. The goal is to find commonalities and discrepancies between the modeled behavior and the observed behavior.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.5089382700651063,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:34:paragraph:7",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 34,
+        "text": "Alignments are often seen as the gold standard for conformance checking because they provide paths through the process model that are as close to the observed behavior as possible. We would like to map observed behavior onto modeled behavior to",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 25
+        },
+        "score": 0.49604427840985255,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": true,
+    "strategy": "C",
+    "applied_filter": {
+      "chapter": "overview"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What input lets comparative process mining compare locations, time periods, or case categories?",
+    "expected_answer": "Multiple event logs, for example logs from different locations, periods, or case categories.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 36,
+    "evidence_quote": "Comparative process mining uses as input multiple event logs, e.g., L1,L 2,..., Ln ∈B (Uact∗). These event logs may refer to different locations, periods, or categories of cases.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:36:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "ers, and rework due to quality problems. Comparative process mining is also a great tool for inter- or intra- organizational benchmarking . For example, an insurance company may have dif- ferent regional offices. Using comparative process mining, these offices can learn from each other and increase the overall performance. 4.5 Predictive Process Mining Process discovery, conformance checking, performance analysis, and compara- tive process mining are backward-looking. Although the value of such ",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.6294550288455026,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:36:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "y customer), percentage of cases handled within a predefined timeframe, first-call resolution (cases successfully handled without rerouting), percentage of duplicated cases (e.g., multiple procurement documents corresponding to the same order), mean time between failures, mean time to recovery, etc. 4.4 Comparative Process Mining Comparative process mining uses as input multiple event logs, e.g., L1,L 2,..., Ln ∈B (Uact∗). These event logs may refer to different locations, periods, or categories",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.5917864425658563,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:36:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "mmonalities? What factors lead to these differences? Root cause analysis can be used to explain the observed differences. For example, in LFeb waiting times may be much longer than in LJan due to limited resource availability. Comparative process mining may focus on frequently occurring problems, sometimes referred to as execution gaps . Such execution gaps include lost customers, additional work due to price changes, the merging of duplicate orders, and rework due to quality problems. Comparati",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.525329302518699,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What input lets comparative process mining compare locations, time periods, or case categories?",
+    "expected_answer": "Multiple event logs, for example logs from different locations, periods, or case categories.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 36,
+    "evidence_quote": "Comparative process mining uses as input multiple event logs, e.g., L1,L 2,..., Ln ∈B (Uact∗). These event logs may refer to different locations, periods, or categories of cases.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:36:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "4.4 Comparative Process Mining Comparative process mining uses as input multiple event logs, e.g., L1,L 2,..., Ln ∈B (Uact∗). These event logs may refer to different locations, periods, or categories of cases. For example, we may have the event logs LAachen and LMunich referring to the same processes performed at two locations. We may have the event logs LJan,L Feb,L Mar ,...,L Dec referring to different periods or LGold and LSilver referring to gold and silver customers.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.6947834930621851,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:36:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "Such execution gaps include lost customers, additional work due to price changes, the merging of duplicate orders, and rework due to quality problems. Comparative process mining is also a great tool for inter- or intra- organizational benchmarking . For example, an insurance company may have dif- ferent regional offices. Using comparative process mining, these offices can learn from each other and increase the overall performance.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.5835214585933934,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:36:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "Having multiple event logs allows for comparison and highly relevant ques- tions. What are the striking differences and commonalities? What factors lead to these differences? Root cause analysis can be used to explain the observed differences. For example, in LFeb waiting times may be much longer than in LJan due to limited resource availability. Comparative process mining may focus on frequently occurring problems, sometimes referred to as execution gaps .",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.5505608755643344,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What input lets comparative process mining compare locations, time periods, or case categories?",
+    "expected_answer": "Multiple event logs, for example logs from different locations, periods, or case categories.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 36,
+    "evidence_quote": "Comparative process mining uses as input multiple event logs, e.g., L1,L 2,..., Ln ∈B (Uact∗). These event logs may refer to different locations, periods, or categories of cases.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:36:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "4.4 Comparative Process Mining Comparative process mining uses as input multiple event logs, e.g., L1,L 2,..., Ln ∈B (Uact∗). These event logs may refer to different locations, periods, or categories of cases. For example, we may have the event logs LAachen and LMunich referring to the same processes performed at two locations. We may have the event logs LJan,L Feb,L Mar ,...,L Dec referring to different periods or LGold and LSilver referring to gold and silver customers.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.6947834930621851,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:36:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "Such execution gaps include lost customers, additional work due to price changes, the merging of duplicate orders, and rework due to quality problems. Comparative process mining is also a great tool for inter- or intra- organizational benchmarking . For example, an insurance company may have dif- ferent regional offices. Using comparative process mining, these offices can learn from each other and increase the overall performance.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.5835214585933934,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:36:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 36,
+        "text": "Having multiple event logs allows for comparison and highly relevant ques- tions. What are the striking differences and commonalities? What factors lead to these differences? Root cause analysis can be used to explain the observed differences. For example, in LFeb waiting times may be much longer than in LJan due to limited resource availability. Comparative process mining may focus on frequently occurring problems, sometimes referred to as execution gaps .",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 27
+        },
+        "score": 0.5505608755643344,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the input and intended output of process discovery?",
+    "expected_answer": "An event log of example behaviors is used to create a model of the underlying process.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 45,
+    "evidence_quote": "The goal is to take an event log containing example behaviors and create a process model that adequately describes the underlying process.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:45:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 45,
+        "text": "- ing because, in most cases, the event data cannot be assumed to be complete, i.e., we only witnessed example behaviors. There may also be conflicting requirements (e.g., recall, precision, generalization, and simplicity) [ 1, 3]. This makes process discovery both interesting and challenging. Figure 1 positions this chapter. The input for process discovery is a collection of events and the output is a process model. Such a process model can be used to uncover unexpected deviations and bottlenec",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 37
+        },
+        "score": 0.6672308916711933,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:69:fixed:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 69,
+        "text": "Foundations of Process Discovery 61 accepting Petri nets (Sect. 4.1), process trees (Sect. 4.2), and a subset of the BPMN notation (Sect. 4.3). In this chapter, we group the more advanced approaches into two groups: “bottom- up” process discovery and “top-down” process discovery. The first group aims to uncover local patterns involving a few activities. The second group aims to find a global structure that can be used to decompose the discovery problem into smaller problems. In this section, we ",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 61
+        },
+        "score": 0.615407442071162,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:48:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 48,
+        "text": "he challenges of process discovery. Section 4 discusses higher-level representations such as Petri nets (Subsect. 4.1), process trees (Subsect. 4.2), and BPMN (Subsect. 4.3). Section 5 introduces “bottom-up” process dis- covery using the Alpha algorithm [1, 9] as an example. Section 6 introduces “top-down” process discovery using the basic inductive mining algorithm [ 22–24] as an example. Finally, Sect. 7 concludes the chapter with pointers to other discovery approaches (e.g., using state-based",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 40
+        },
+        "score": 0.6096788097452726,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the input and intended output of process discovery?",
+    "expected_answer": "An event log of example behaviors is used to create a model of the underlying process.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 45,
+    "evidence_quote": "The goal is to take an event log containing example behaviors and create a process model that adequately describes the underlying process.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:48:paragraph:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 48,
+        "text": "The goal of a process discovery algorithm is to produce a model that explains the observed behavior. Definition 3 (Process Discovery Algorithm). A process discovery algorithm is a function disc ∈B (Uact∗) →U M , i.e., based on a multiset of traces, a model is produced.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 40
+        },
+        "score": 0.629139801011238,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:45:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 45,
+        "text": "This may be challeng- ing because, in most cases, the event data cannot be assumed to be complete, i.e., we only witnessed example behaviors. There may also be conflicting requirements (e.g., recall, precision, generalization, and simplicity) [ 1, 3]. This makes process discovery both interesting and challenging. Figure 1 positions this chapter. The input for process discovery is a collection of events and the output is a process model.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 37
+        },
+        "score": 0.6232802982800665,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:33:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "Process discovery is further complicated by the fact that event logs do not contain negative examples (i.e., traces that cannot happen) and are often incomplete (i.e., only a small fraction of all possible behavior is observed). It is important to focus on a particular process or problem,h a v i n ga particular goal in mind. One needs to select and filter the data based on a well-defined goal.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.6223712698611478,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the input and intended output of process discovery?",
+    "expected_answer": "An event log of example behaviors is used to create a model of the underlying process.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 45,
+    "evidence_quote": "The goal is to take an event log containing example behaviors and create a process model that adequately describes the underlying process.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:48:paragraph:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 48,
+        "text": "The goal of a process discovery algorithm is to produce a model that explains the observed behavior. Definition 3 (Process Discovery Algorithm). A process discovery algorithm is a function disc ∈B (Uact∗) →U M , i.e., based on a multiset of traces, a model is produced.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 40
+        },
+        "score": 0.629139801011238,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:45:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 45,
+        "text": "This may be challeng- ing because, in most cases, the event data cannot be assumed to be complete, i.e., we only witnessed example behaviors. There may also be conflicting requirements (e.g., recall, precision, generalization, and simplicity) [ 1, 3]. This makes process discovery both interesting and challenging. Figure 1 positions this chapter. The input for process discovery is a collection of events and the output is a process model.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 37
+        },
+        "score": 0.6232802982800665,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:33:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "Process discovery is further complicated by the fact that event logs do not contain negative examples (i.e., traces that cannot happen) and are often incomplete (i.e., only a small fraction of all possible behavior is observed). It is important to focus on a particular process or problem,h a v i n ga particular goal in mind. One needs to select and filter the data based on a well-defined goal.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.6223712698611478,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why is a simplified event log represented as a multiset of traces?",
+    "expected_answer": "Several cases can share a trace. A multiset retains those repeated occurrences.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 46,
+    "evidence_quote": "Note that there may be many cases that have the same trace. Therefore, we represent an event log as a multiset of traces.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:46:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 46,
+        "text": "a, b, c, and e occurred. Note that there may be many cases that have the same trace. Therefore, we represent an event log as a multiset of traces. For example, L1 =[ a, b, c, e 10, a, c, b, e 5, a, d, e ] is an event log describing 16 cases and 10 × 4+5 × 4+1 × 3=6 3 events. Note that trace σ = a, b, c, e appears 10 times. In [ 3], we use the term simplified event log. Here we drop the adjective “simplified” since the representation will be used throughout the chapter. Definition 1 (Event Log). ",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 38
+        },
+        "score": 0.737513460286577,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:25:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 25,
+        "text": "n suffices to focus only on the activity attribute and the ordering within a case. This leads to a much simpler event log notion. Definition 3 (Simplified Event Log). A simplified event log L ∈B (Uact∗) is a multiset of traces. A trace σ = a1,a 2,...a n ∈U act∗ is a sequence of activities. L(σ) is the number of times trace σ appears in event log L. Consider case pizza-56 in Table 1. There are eight events having this case attribute. By ordering these events based on their timestamps we get the t",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 16
+        },
+        "score": 0.6375534423101941,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:25:fixed:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 25,
+        "text": "( ep), and clean kitchen (ck ). The same trace may appear multiple times in a log. For example, L = [ a, b, c, e 10, a, c, b, e 5, a, d, e ] is a simple event log with 10 + 5 + 1 = 16 cases and 40 + 20 + 3 = 63 events. An event log with events having any number of attributes (Definition 2)c a n be transformed into a simplified event log by ignoring the additional attributes",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 16
+        },
+        "score": 0.582176892264552,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why is a simplified event log represented as a multiset of traces?",
+    "expected_answer": "Several cases can share a trace. A multiset retains those repeated occurrences.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 46,
+    "evidence_quote": "Note that there may be many cases that have the same trace. Therefore, we represent an event log as a multiset of traces.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:40:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 40,
+        "text": "This can be further reduced to representing an event log by a multiset of traces where each trace is a sequence of activities. This format is often used for control-flow discovery. However, in real-life settings it is not so easy to find a single case notion. Often events may refer to multiple objects of different types. There may also be data quality problems and data may be scattered over multiple source systems.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 31
+        },
+        "score": 0.7779494586976708,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:46:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 46,
+        "text": "Therefore, we represent an event log as a multiset of traces. For example, L1 =[ a, b, c, e 10, a, c, b, e 5, a, d, e ] is an event log describing 16 cases and 10 × 4+5 × 4+1 × 3=6 3 events. Note that trace σ = a, b, c, e appears 10 times. In [ 3], we use the term simplified event log. Here we drop the adjective “simplified” since the representation will be used throughout the chapter. Definition 1 (Event Log). Uact is the universe of activity names.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 38
+        },
+        "score": 0.7296858478317345,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:25:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 25,
+        "text": "It may be beneficial to use partially ordered event data in case of data quality problems or when there is explicit causal information. 3.3 Simplified Event Log For process mining techniques focusing on control-flow, it often suffices to focus only on the activity attribute and the ordering within a case. This leads to a much simpler event log notion. Definition 3 (Simplified Event Log). A simplified event log L ∈B (Uact∗) is a multiset of traces.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 16
+        },
+        "score": 0.6570763371145475,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why is a simplified event log represented as a multiset of traces?",
+    "expected_answer": "Several cases can share a trace. A multiset retains those repeated occurrences.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 46,
+    "evidence_quote": "Note that there may be many cases that have the same trace. Therefore, we represent an event log as a multiset of traces.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:40:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 40,
+        "text": "This can be further reduced to representing an event log by a multiset of traces where each trace is a sequence of activities. This format is often used for control-flow discovery. However, in real-life settings it is not so easy to find a single case notion. Often events may refer to multiple objects of different types. There may also be data quality problems and data may be scattered over multiple source systems.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 31
+        },
+        "score": 0.7779494586976708,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:46:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 46,
+        "text": "Therefore, we represent an event log as a multiset of traces. For example, L1 =[ a, b, c, e 10, a, c, b, e 5, a, d, e ] is an event log describing 16 cases and 10 × 4+5 × 4+1 × 3=6 3 events. Note that trace σ = a, b, c, e appears 10 times. In [ 3], we use the term simplified event log. Here we drop the adjective “simplified” since the representation will be used throughout the chapter. Definition 1 (Event Log). Uact is the universe of activity names.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 38
+        },
+        "score": 0.7296858478317345,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:25:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 25,
+        "text": "It may be beneficial to use partially ordered event data in case of data quality problems or when there is explicit causal information. 3.3 Simplified Event Log For process mining techniques focusing on control-flow, it often suffices to focus only on the activity attribute and the ordering within a case. This leads to a much simpler event log notion. Definition 3 (Simplified Event Log). A simplified event log L ∈B (Uact∗) is a multiset of traces.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 16
+        },
+        "score": 0.6570763371145475,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What behavior does the baseline discovery algorithm ensure the discovered model permits?",
+    "expected_answer": "All observed behavior.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 50,
+    "evidence_quote": "baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:50:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 50,
+        "text": ", d, b, c, e20, a, b, c, d, c, b, e10, a, c, b, d, c, b, d, b, c, e10]. 2.2 Baseline Discovery Algorithm Since the event log only contains example traces, it is natural that the discovery algo- rithm aims to generalize the observed behavior to avoid over-fitting. Therefore, we start with a baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model. The algorithm used to discover the DFGs in Fig. 2(b) and Fig. 3(b) is defined as foll",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 42
+        },
+        "score": 0.6192414979851888,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:32:fixed:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 32,
+        "text": "ss Discovery Event logs contain example behavior. The challenge is to discover a process model based on such example behavior. The model should not be “overfitting” (i.e., simply enumerating the observed example traces) and not “underfitting” (i.e., allow for behavior unrelated to what was observed). This is a difficult task and numerous algorithms have been proposed in literature, including the Alpha algorithm [ 8], region-based approaches [ 11,13,33,36], inductive mining techniques [ 28,29], a",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 23
+        },
+        "score": 0.5833907435932646,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": " (i.e., frequent) from the exceptional (i.e., infrequent) behavior. This is vital in the con- text of process discovery and can be combined with the later bottom-up and top-down discovery approaches. 3 Challenges After introducing a baseline discovery algorithm and various filtering approaches, it is possible to better explain why process discovery is so challenging. In Definition 3,w e stated that a process discovery algorithm is a function disc ∈B (Uact∗) →U M , i.e., based on a multiset of tr",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.5632609881058169,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What behavior does the baseline discovery algorithm ensure the discovered model permits?",
+    "expected_answer": "All observed behavior.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 50,
+    "evidence_quote": "baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:50:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 50,
+        "text": "Therefore, we start with a baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model. The algorithm used to discover the DFGs in Fig. 2(b) and Fig. 3(b) is defined as follows. Definition 6 (Baseline Discovery Algorithm). Let L ∈B (Uact∗) be an event log. discDFG (L)=( A, F ) is the DFG based on L with: – A = {a ∈ σ | σ ∈ L} and – F =[ (σi,σi+1) | σ ∈ L ∧ 1 ≤ i< |σ|] with L =[ · σ · | σ ∈ L].",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 42
+        },
+        "score": 0.579063552328001,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:35:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 35,
+        "text": "– Precision: the discovered model should not allow for behavior completely unrelated to what was seen in the event log. This can be quantified by the number of possible continuations in the model never observed in the event log. – Generalization: the discovered model should generalize the example behavior seen in the event log. It is easy to create a process model that only allows for the behavior observed and nothing more. However, such a model is likely to overfit.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 26
+        },
+        "score": 0.5663517605540974,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:50:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 50,
+        "text": "Three process models learned from event log L2 =[ a, b, c, e50, a, c, b, e40, a, b, c, d, b, c, e30, a, c, b, d, b, c, e20, a, b, c, d, c, b, e10, a, c, b, d, c, b, d, b, c, e10]. 2.2 Baseline Discovery Algorithm Since the event log only contains example traces, it is natural that the discovery algo- rithm aims to generalize the observed behavior to avoid over-fitting.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 42
+        },
+        "score": 0.555453933705089,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What behavior does the baseline discovery algorithm ensure the discovered model permits?",
+    "expected_answer": "All observed behavior.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 50,
+    "evidence_quote": "baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:50:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 50,
+        "text": "Therefore, we start with a baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model. The algorithm used to discover the DFGs in Fig. 2(b) and Fig. 3(b) is defined as follows. Definition 6 (Baseline Discovery Algorithm). Let L ∈B (Uact∗) be an event log. discDFG (L)=( A, F ) is the DFG based on L with: – A = {a ∈ σ | σ ∈ L} and – F =[ (σi,σi+1) | σ ∈ L ∧ 1 ≤ i< |σ|] with L =[ · σ · | σ ∈ L].",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 42
+        },
+        "score": 0.579063552328001,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:35:paragraph:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 35,
+        "text": "– Precision: the discovered model should not allow for behavior completely unrelated to what was seen in the event log. This can be quantified by the number of possible continuations in the model never observed in the event log. – Generalization: the discovered model should generalize the example behavior seen in the event log. It is easy to create a process model that only allows for the behavior observed and nothing more. However, such a model is likely to overfit.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 26
+        },
+        "score": 0.5663517605540974,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:50:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 50,
+        "text": "Three process models learned from event log L2 =[ a, b, c, e50, a, c, b, e40, a, b, c, d, b, c, e30, a, c, b, d, b, c, e20, a, b, c, d, c, b, e10, a, c, b, d, c, b, d, b, c, e10]. 2.2 Baseline Discovery Algorithm Since the event log only contains example traces, it is natural that the discovery algo- rithm aims to generalize the observed behavior to avoid over-fitting.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 42
+        },
+        "score": 0.555453933705089,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, when does the baseline DFG add an arc from activity a1 to a2?",
+    "expected_answer": "When a1 is directly followed by a2 at least once in the log.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 52,
+    "evidence_quote": "connected by a directed arc if a1 is directly followed by a2 at least once in the log.",
+    "filter": {
+      "chapter": "process_discovery"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:52:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 52,
+        "text": "discDFG (L)). Hence, Table 2 also shows fp(L1)= fp(discDFG (L1)) = fp(M1). This allows us to write b→L1 e, bL1 e, b#L1 d,e t c . 2.4 Filtering Using the baseline discovery algorithm, an activity a appears in the discovered DFG when it occurs at least once and two activities a1 and a2 are connected by a directed arc if a1 is directly followed by a2 at least once in the log. Often, we do not want to see the process model that captures all behavior. Instead, we would like to see the dominant behavi",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 44
+        },
+        "score": 0.6804030489654178,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:51:fixed:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 51,
+        "text": "Foundations of Process Discovery 43 F ((,a )) = 16 , and F ((c, e )) = 10 . To capture the relations between activities, we can also create a so-called footprint matrix [1]. Table 2 shows the footprint matrix for the DFG in Fig. 2(b). Between two activities a1 and a2, precisely one of four possible relations holds: – a1 → a2 (i.e., a1 is sometimes directly followed by a2,b u t a2 is never directly followed by a1), – a1 ← a2 (i.e., a2 is sometimes directly followed by a1,b u t a1 is never directl",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 43
+        },
+        "score": 0.6313452492954015,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:80:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 80,
+        "text": "ng the baseline DFG discovery approach, we focused on process rep- resentations able to capture concurrency: Petri nets, process trees, and BPMN models. This is needed because, if activities do not occur in a fixed order due to concurrency, then the discovered DFGs are underfitting and contain many loops. This allowed us to introduce more advanced process discovery approaches. We characterized these as (1) bottom-up approaches and (2) top-down approaches. Bottom-up approaches try to find local p",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 72
+        },
+        "score": 0.618334589851631,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, when does the baseline DFG add an arc from activity a1 to a2?",
+    "expected_answer": "When a1 is directly followed by a2 at least once in the log.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 52,
+    "evidence_quote": "connected by a directed arc if a1 is directly followed by a2 at least once in the log.",
+    "filter": {
+      "chapter": "process_discovery"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:32:paragraph:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 32,
+        "text": "A baseline approach is the creation of a DFG, where the observed activities are added as nodes and two nodes a and b are connected through a directed arc if activity a is directly followed by activity b at least once. Obviously, such an approach is too simplistic and leads to underfitting process models. If activity a is directly followed by activity b in",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 23
+        },
+        "score": 0.6965229283971781,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:52:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 52,
+        "text": "Hence, Table 2 also shows fp(L1)= fp(discDFG (L1)) = fp(M1). This allows us to write b→L1 e, bL1 e, b#L1 d,e t c . 2.4 Filtering Using the baseline discovery algorithm, an activity a appears in the discovered DFG when it occurs at least once and two activities a1 and a2 are connected by a directed arc if a1 is directly followed by a2 at least once in the log. Often, we do not want to see the process model that captures all behavior. Instead, we would like to see the dominant behavior.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 44
+        },
+        "score": 0.6757228666092537,
+        "rank": 2,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:50:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 50,
+        "text": "Therefore, we start with a baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model. The algorithm used to discover the DFGs in Fig. 2(b) and Fig. 3(b) is defined as follows. Definition 6 (Baseline Discovery Algorithm). Let L ∈B (Uact∗) be an event log. discDFG (L)=( A, F ) is the DFG based on L with: – A = {a ∈ σ | σ ∈ L} and – F =[ (σi,σi+1) | σ ∈ L ∧ 1 ≤ i< |σ|] with L =[ · σ · | σ ∈ L].",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 42
+        },
+        "score": 0.6351289199012043,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": false,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, when does the baseline DFG add an arc from activity a1 to a2?",
+    "expected_answer": "When a1 is directly followed by a2 at least once in the log.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 52,
+    "evidence_quote": "connected by a directed arc if a1 is directly followed by a2 at least once in the log.",
+    "filter": {
+      "chapter": "process_discovery"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:52:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 52,
+        "text": "Hence, Table 2 also shows fp(L1)= fp(discDFG (L1)) = fp(M1). This allows us to write b→L1 e, bL1 e, b#L1 d,e t c . 2.4 Filtering Using the baseline discovery algorithm, an activity a appears in the discovered DFG when it occurs at least once and two activities a1 and a2 are connected by a directed arc if a1 is directly followed by a2 at least once in the log. Often, we do not want to see the process model that captures all behavior. Instead, we would like to see the dominant behavior.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 44
+        },
+        "score": 0.6757228666092537,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:50:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 50,
+        "text": "Therefore, we start with a baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model. The algorithm used to discover the DFGs in Fig. 2(b) and Fig. 3(b) is defined as follows. Definition 6 (Baseline Discovery Algorithm). Let L ∈B (Uact∗) be an event log. discDFG (L)=( A, F ) is the DFG based on L with: – A = {a ∈ σ | σ ∈ L} and – F =[ (σi,σi+1) | σ ∈ L ∧ 1 ≤ i< |σ|] with L =[ · σ · | σ ∈ L].",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 42
+        },
+        "score": 0.6351289199012043,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:49:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 49,
+        "text": "and can be viewed as artificially added activities to clearly indicate the start and end of the process. The nodes of a DFG are to denote the beginning, to denote the end, and the activities in set A. Note that ∈ A and ∈ A (this is also important in later sections). There are four types of arcs: (,a ), (a1,a 2), (a, ), and (, ) (with a, a 1,a 2 ∈ A).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 41
+        },
+        "score": 0.6291199201274796,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": true,
+    "strategy": "C",
+    "applied_filter": {
+      "chapter": "process_discovery"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "condition",
+    "question": "Does activity-based filtering change the number of traces if every activity is removed?",
+    "expected_answer": "No. The number of traces is preserved.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 53,
+    "evidence_quote": "the number of traces is not affected by activity-based filtering (even when all activities are removed).",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:53:fixed:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 53,
+        "text": "g. There are several reasons for this. The num- ber of traces is affected by variant-based filtering. Moreover, activity-based filtering may lead to variants with a higher frequency. Consider L1 with τact =1 6 and τvar =1 0 . If we first apply variant-based filtering, one variant remains after the first step and none of the activities is frequent enough to be retained in the second step: filter act (filter var (L1,τ var ),τ act )=[ 10]. If we first apply activity-based fil- tering, then the two ",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 45
+        },
+        "score": 0.6896746485473617,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:52:fixed:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 52,
+        "text": " a subset of trace variants V ⊆ var (L), First, we define activity-based filtering using a threshold τact ∈ N = {1, 2, 3,... }. All activities with a frequency lower than τact are removed from the event log, but all cases are retained.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 44
+        },
+        "score": 0.653212605775626,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:53:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 53,
+        "text": "lter act (L1,τ act )= [a, b, c, e 10, a, c, b, e 5, a, e ] (only activity d is removed). If τact =1 6 , then filter act (L1,τ act )=[ a, e 16] (only activities a and e remain). If τact > 16, then filter act (L1,τ act )=[ 16]. Note that the number of traces is not affected by activity-based filtering (even when all activities are removed). If τact = 200 , then filter act (L2,τ act )=[ b, c 50, c, b 40, b, c, b, c 30, c, b, b, c 20, b, c, c, b 10, c, b, c, b, b, c 10] (only activities b and c rema",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 45
+        },
+        "score": 0.635598275847077,
+        "rank": 3,
+        "evidence_hit": true
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "condition",
+    "question": "Does activity-based filtering change the number of traces if every activity is removed?",
+    "expected_answer": "No. The number of traces is preserved.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 53,
+    "evidence_quote": "the number of traces is not affected by activity-based filtering (even when all activities are removed).",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:53:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 53,
+        "text": "If τact =1 0 , then filter act (L1,τ act )= [a, b, c, e 10, a, c, b, e 5, a, e ] (only activity d is removed). If τact =1 6 , then filter act (L1,τ act )=[ a, e 16] (only activities a and e remain). If τact > 16, then filter act (L1,τ act )=[ 16]. Note that the number of traces is not affected by activity-based filtering (even when all activities are removed).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 45
+        },
+        "score": 0.6624273432908124,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:53:paragraph:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 53,
+        "text": "It is also better to conduct activity-based filtering before variant-based filtering. There are several reasons for this. The num- ber of traces is affected by variant-based filtering. Moreover, activity-based filtering may lead to variants with a higher frequency. Consider L1 with τact =1 6 and τvar =1 0 .",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 45
+        },
+        "score": 0.6587748620422145,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:52:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 52,
+        "text": "activity-based filtering using a threshold τact ∈ N = {1, 2, 3,... }. All activities with a frequency lower than τact are removed from the event log, but all cases are retained.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 44
+        },
+        "score": 0.6416999579109295,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "condition",
+    "question": "Does activity-based filtering change the number of traces if every activity is removed?",
+    "expected_answer": "No. The number of traces is preserved.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 53,
+    "evidence_quote": "the number of traces is not affected by activity-based filtering (even when all activities are removed).",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:53:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 53,
+        "text": "If τact =1 0 , then filter act (L1,τ act )= [a, b, c, e 10, a, c, b, e 5, a, e ] (only activity d is removed). If τact =1 6 , then filter act (L1,τ act )=[ a, e 16] (only activities a and e remain). If τact > 16, then filter act (L1,τ act )=[ 16]. Note that the number of traces is not affected by activity-based filtering (even when all activities are removed).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 45
+        },
+        "score": 0.6624273432908124,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:53:paragraph:6",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 53,
+        "text": "It is also better to conduct activity-based filtering before variant-based filtering. There are several reasons for this. The num- ber of traces is affected by variant-based filtering. Moreover, activity-based filtering may lead to variants with a higher frequency. Consider L1 with τact =1 6 and τvar =1 0 .",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 45
+        },
+        "score": 0.6587748620422145,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:52:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 52,
+        "text": "activity-based filtering using a threshold τact ∈ N = {1, 2, 3,... }. All activities with a frequency lower than τact are removed from the event log, but all cases are retained.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 44
+        },
+        "score": 0.6416999579109295,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  }
+]

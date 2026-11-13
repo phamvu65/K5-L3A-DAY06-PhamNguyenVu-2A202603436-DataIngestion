@@ -10,7 +10,23 @@ Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, r�
 
 ## Bắt đầu nhanh
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database. Corpus và câu hỏi đã khai báo trong [manifest](data/manifest.json) và [benchmark](benchmark/questions.json). Pipeline dùng OpenAI `text-embedding-3-small` (1.536 chiều) và cần `OPENAI_API_KEY` trong môi trường hoặc `starter/.env`.
+
+Từ thư mục gốc trên Windows, sau khi PostgreSQL đã chạy:
+
+```powershell
+.\starter\.venv\Scripts\python.exe -m starter.src.run
+```
+
+Thêm `--dev-only` để dừng sau khi chọn cấu hình trên dev. Lệnh đầy đủ chọn theo Evidence Hit@3 trên dev, dùng Hit@1 để phân xử, rồi ưu tiên A, B, C nếu vẫn hòa. Pipeline ghi lựa chọn trước khi truy xuất tập test. Trace và bảng tổng hợp được ghi vào `results/`. Cấu hình C dùng cùng vector với B và chỉ áp dụng bộ lọc `chapter` khi câu hỏi có khai báo.
+
+Sau khi chạy pipeline, có thể so sánh 20 cặp câu Anh–Việt trên cùng vector đã lưu:
+
+```powershell
+.\starter\.venv\Scripts\python.exe -m starter.src.compare_languages
+```
+
+Các câu dịch được ghép theo ID trong [questions_vi.json](benchmark/questions_vi.json). Kết quả và trace nằm trong [results/language_comparison](results/language_comparison/summary.json).
 
 ## 1. Xây pipeline
 

@@ -1,0 +1,4 @@
+{
+  "rule": "Maximize dev Evidence Hit@3, then dev Hit@1, then prefer A, B, C in that order.",
+  "strategy": "C"
+}

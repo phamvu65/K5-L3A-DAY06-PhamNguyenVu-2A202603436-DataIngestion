@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed,500,50,chapter and printed_page,none,text-embedding-3-small,Overlap may preserve evidence across windows,5/15,7/15,1/5,3/5,433 chunks
+B,paragraph with sentence and word fallback,500,0,chapter and printed_page,none,text-embedding-3-small,Sentence boundaries may preserve context,4/15,8/15,1/5,1/5,454 chunks
+C,same as B,500,0,chapter and printed_page,chapter when requested,text-embedding-3-small,Chapter filter may improve relevance for scoped questions,5/15,8/15,1/5,1/5,Reuses B vectors and was selected on dev

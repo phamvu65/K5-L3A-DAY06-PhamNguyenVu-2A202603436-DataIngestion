@@ -1,0 +1,22 @@
+{
+  "q01": "Kết hợp mô hình hóa quy trình với dữ liệu sự kiện giúp giải quyết hai loại vấn đề nào?",
+  "q02": "Sổ tay định nghĩa khoa học quy trình như thế nào?",
+  "q03": "Sau khi khám phá luồng điều khiển, có thể bổ sung gì để mô hình quy trình trở thành mô hình ngẫu nhiên?",
+  "q04": "Trong mạng Petri của quy trình làm pizza, các vị trí đầu vào phải thỏa điều kiện gì để một chuyển tiếp được kích hoạt?",
+  "q05": "Trong mạng Petri làm pizza, chuyển tiếp thêm nấm sẽ ra sao khi chuyển tiếp thêm salami tiêu thụ token dùng chung?",
+  "q06": "Ba thuộc tính sự kiện nào đủ để khám phá và kiểm tra luồng điều khiển?",
+  "q07": "Khi chuyển sang nhật ký sự kiện giản lược, những sự kiện thiếu thuộc tính nào sẽ bị loại?",
+  "q08": "Purchase-to-Pay liên quan đến phía nào của tổ chức, và Order-to-Cash liên quan đến phía nào?",
+  "q09": "Trong phạm vi chương tổng quan, kiểm tra sự phù hợp cần đầu vào gì và xác định điều gì?",
+  "q10": "Cần đầu vào nào để khai phá quy trình theo hướng so sánh giữa các địa điểm, khoảng thời gian hoặc nhóm trường hợp?",
+  "q11": "Đầu vào và đầu ra mong muốn của khám phá quy trình là gì?",
+  "q12": "Vì sao nhật ký sự kiện giản lược được biểu diễn dưới dạng đa tập các vết thực thi?",
+  "q13": "Thuật toán khám phá cơ sở bảo đảm mô hình tìm được cho phép những hành vi nào?",
+  "q14": "Trong phạm vi chương về khám phá quy trình, khi nào đồ thị theo sau trực tiếp (DFG) cơ sở thêm cung từ hoạt động a1 đến a2?",
+  "q15": "Nếu mọi hoạt động đều bị loại, lọc theo hoạt động có làm thay đổi số lượng vết thực thi không?",
+  "q16": "Khi làm phẳng nhật ký sự kiện hướng đối tượng, cần chọn gì để xác định một trường hợp?",
+  "q17": "Vì sao việc ghép sự kiện bắt đầu với sự kiện hoàn thành có thể mơ hồ khi hai lần thực hiện cùng một hoạt động chồng lấn nhau?",
+  "q18": "Trong phạm vi chương về khám phá quy trình, phương pháp lọc nào được áp dụng cuối cùng để cắt bớt đồ thị?",
+  "q19": "Trong ví dụ đã lọc ở Hình 8, sáu biến thể được giữ lại chiếm bao nhiêu phần trăm số trường hợp và bao nhiêu phần trăm số biến thể?",
+  "q20": "Vì sao Inductive Miner cơ bản có thể khó áp dụng trên nhật ký sự kiện rất lớn?"
+}

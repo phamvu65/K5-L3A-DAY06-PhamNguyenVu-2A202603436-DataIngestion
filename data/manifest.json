@@ -1,0 +1,441 @@
+{
+  "page_numbering": "Physical PDF pages are 1-based; printed_page is the book's page label.",
+  "selection_rule": "Two chapter bodies. Exclude front matter, other chapters, and pages containing only references or license text.",
+  "content_page_count": 67,
+  "text_extractor": "pypdf 6.21.4",
+  "character_count_rule": "Length after normalize_text() in starter/src/ingestion.py.",
+  "documents": [
+    {
+      "source_id": "process-mining-handbook-2022",
+      "title": "Process Mining Handbook",
+      "editors": [
+        "Wil M. P. van der Aalst",
+        "Josep Carmona"
+      ],
+      "publisher": "Springer Cham",
+      "year": 2022,
+      "source_path_or_url": "../starter/data/process-mining-handbook-2022.pdf",
+      "source_url": "https://doi.org/10.1007/978-3-031-08848-3",
+      "license_or_permission": "CC BY 4.0, subject to individual credit notices",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "accessed_at": "2026-11-13",
+      "physical_page_count": 503,
+      "chapters": {
+        "overview": {
+          "title": "Process Mining: A 360 Degree Overview",
+          "doi": "10.1007/978-3-031-08848-3_1",
+          "author": "Wil M. P. van der Aalst"
+        },
+        "process_discovery": {
+          "title": "Foundations of Process Discovery",
+          "doi": "10.1007/978-3-031-08848-3_2",
+          "author": "Wil M. P. van der Aalst"
+        }
+      },
+      "pages": [
+        {
+          "page": 12,
+          "printed_page": 3,
+          "chapter": "overview",
+          "character_count": 2672
+        },
+        {
+          "page": 13,
+          "printed_page": 4,
+          "chapter": "overview",
+          "character_count": 2534
+        },
+        {
+          "page": 14,
+          "printed_page": 5,
+          "chapter": "overview",
+          "character_count": 2416
+        },
+        {
+          "page": 15,
+          "printed_page": 6,
+          "chapter": "overview",
+          "character_count": 3506
+        },
+        {
+          "page": 16,
+          "printed_page": 7,
+          "chapter": "overview",
+          "character_count": 3179
+        },
+        {
+          "page": 17,
+          "printed_page": 8,
+          "chapter": "overview",
+          "character_count": 2159
+        },
+        {
+          "page": 18,
+          "printed_page": 9,
+          "chapter": "overview",
+          "character_count": 2287
+        },
+        {
+          "page": 19,
+          "printed_page": 10,
+          "chapter": "overview",
+          "character_count": 2103
+        },
+        {
+          "page": 20,
+          "printed_page": 11,
+          "chapter": "overview",
+          "character_count": 1656
+        },
+        {
+          "page": 21,
+          "printed_page": 12,
+          "chapter": "overview",
+          "character_count": 2398
+        },
+        {
+          "page": 22,
+          "printed_page": 13,
+          "chapter": "overview",
+          "character_count": 2646
+        },
+        {
+          "page": 23,
+          "printed_page": 14,
+          "chapter": "overview",
+          "character_count": 2328
+        },
+        {
+          "page": 24,
+          "printed_page": 15,
+          "chapter": "overview",
+          "character_count": 3125
+        },
+        {
+          "page": 25,
+          "printed_page": 16,
+          "chapter": "overview",
+          "character_count": 3076
+        },
+        {
+          "page": 26,
+          "printed_page": 17,
+          "chapter": "overview",
+          "character_count": 2739
+        },
+        {
+          "page": 27,
+          "printed_page": 18,
+          "chapter": "overview",
+          "character_count": 2950
+        },
+        {
+          "page": 28,
+          "printed_page": 19,
+          "chapter": "overview",
+          "character_count": 3202
+        },
+        {
+          "page": 29,
+          "printed_page": 20,
+          "chapter": "overview",
+          "character_count": 3292
+        },
+        {
+          "page": 30,
+          "printed_page": 21,
+          "chapter": "overview",
+          "character_count": 3143
+        },
+        {
+          "page": 31,
+          "printed_page": 22,
+          "chapter": "overview",
+          "character_count": 2172
+        },
+        {
+          "page": 32,
+          "printed_page": 23,
+          "chapter": "overview",
+          "character_count": 3132
+        },
+        {
+          "page": 33,
+          "printed_page": 24,
+          "chapter": "overview",
+          "character_count": 2479
+        },
+        {
+          "page": 34,
+          "printed_page": 25,
+          "chapter": "overview",
+          "character_count": 3409
+        },
+        {
+          "page": 35,
+          "printed_page": 26,
+          "chapter": "overview",
+          "character_count": 3054
+        },
+        {
+          "page": 36,
+          "printed_page": 27,
+          "chapter": "overview",
+          "character_count": 3063
+        },
+        {
+          "page": 37,
+          "printed_page": 28,
+          "chapter": "overview",
+          "character_count": 3173
+        },
+        {
+          "page": 38,
+          "printed_page": 29,
+          "chapter": "overview",
+          "character_count": 1997
+        },
+        {
+          "page": 39,
+          "printed_page": 30,
+          "chapter": "overview",
+          "character_count": 2569
+        },
+        {
+          "page": 40,
+          "printed_page": 31,
+          "chapter": "overview",
+          "character_count": 3196
+        },
+        {
+          "page": 41,
+          "printed_page": 32,
+          "chapter": "overview",
+          "character_count": 2868
+        },
+        {
+          "page": 45,
+          "printed_page": 37,
+          "chapter": "process_discovery",
+          "character_count": 2846
+        },
+        {
+          "page": 46,
+          "printed_page": 38,
+          "chapter": "process_discovery",
+          "character_count": 2424
+        },
+        {
+          "page": 47,
+          "printed_page": 39,
+          "chapter": "process_discovery",
+          "character_count": 2486
+        },
+        {
+          "page": 48,
+          "printed_page": 40,
+          "chapter": "process_discovery",
+          "character_count": 3081
+        },
+        {
+          "page": 49,
+          "printed_page": 41,
+          "chapter": "process_discovery",
+          "character_count": 3277
+        },
+        {
+          "page": 50,
+          "printed_page": 42,
+          "chapter": "process_discovery",
+          "character_count": 1919
+        },
+        {
+          "page": 51,
+          "printed_page": 43,
+          "chapter": "process_discovery",
+          "character_count": 1360
+        },
+        {
+          "page": 52,
+          "printed_page": 44,
+          "chapter": "process_discovery",
+          "character_count": 2485
+        },
+        {
+          "page": 53,
+          "printed_page": 45,
+          "chapter": "process_discovery",
+          "character_count": 3516
+        },
+        {
+          "page": 54,
+          "printed_page": 46,
+          "chapter": "process_discovery",
+          "character_count": 2230
+        },
+        {
+          "page": 55,
+          "printed_page": 47,
+          "chapter": "process_discovery",
+          "character_count": 3557
+        },
+        {
+          "page": 56,
+          "printed_page": 48,
+          "chapter": "process_discovery",
+          "character_count": 1508
+        },
+        {
+          "page": 57,
+          "printed_page": 49,
+          "chapter": "process_discovery",
+          "character_count": 841
+        },
+        {
+          "page": 58,
+          "printed_page": 50,
+          "chapter": "process_discovery",
+          "character_count": 3449
+        },
+        {
+          "page": 59,
+          "printed_page": 51,
+          "chapter": "process_discovery",
+          "character_count": 3727
+        },
+        {
+          "page": 60,
+          "printed_page": 52,
+          "chapter": "process_discovery",
+          "character_count": 2791
+        },
+        {
+          "page": 61,
+          "printed_page": 53,
+          "chapter": "process_discovery",
+          "character_count": 2132
+        },
+        {
+          "page": 62,
+          "printed_page": 54,
+          "chapter": "process_discovery",
+          "character_count": 3420
+        },
+        {
+          "page": 63,
+          "printed_page": 55,
+          "chapter": "process_discovery",
+          "character_count": 3271
+        },
+        {
+          "page": 64,
+          "printed_page": 56,
+          "chapter": "process_discovery",
+          "character_count": 2254
+        },
+        {
+          "page": 65,
+          "printed_page": 57,
+          "chapter": "process_discovery",
+          "character_count": 1834
+        },
+        {
+          "page": 66,
+          "printed_page": 58,
+          "chapter": "process_discovery",
+          "character_count": 3572
+        },
+        {
+          "page": 67,
+          "printed_page": 59,
+          "chapter": "process_discovery",
+          "character_count": 2140
+        },
+        {
+          "page": 68,
+          "printed_page": 60,
+          "chapter": "process_discovery",
+          "character_count": 2032
+        },
+        {
+          "page": 69,
+          "printed_page": 61,
+          "chapter": "process_discovery",
+          "character_count": 3302
+        },
+        {
+          "page": 70,
+          "printed_page": 62,
+          "chapter": "process_discovery",
+          "character_count": 2334
+        },
+        {
+          "page": 71,
+          "printed_page": 63,
+          "chapter": "process_discovery",
+          "character_count": 3602
+        },
+        {
+          "page": 72,
+          "printed_page": 64,
+          "chapter": "process_discovery",
+          "character_count": 3237
+        },
+        {
+          "page": 73,
+          "printed_page": 65,
+          "chapter": "process_discovery",
+          "character_count": 2849
+        },
+        {
+          "page": 74,
+          "printed_page": 66,
+          "chapter": "process_discovery",
+          "character_count": 2924
+        },
+        {
+          "page": 75,
+          "printed_page": 67,
+          "chapter": "process_discovery",
+          "character_count": 3100
+        },
+        {
+          "page": 76,
+          "printed_page": 68,
+          "chapter": "process_discovery",
+          "character_count": 1877
+        },
+        {
+          "page": 77,
+          "printed_page": 69,
+          "chapter": "process_discovery",
+          "character_count": 3816
+        },
+        {
+          "page": 78,
+          "printed_page": 70,
+          "chapter": "process_discovery",
+          "character_count": 2824
+        },
+        {
+          "page": 79,
+          "printed_page": 71,
+          "chapter": "process_discovery",
+          "character_count": 1993
+        },
+        {
+          "page": 80,
+          "printed_page": 72,
+          "chapter": "process_discovery",
+          "character_count": 3860
+        },
+        {
+          "page": 81,
+          "printed_page": 73,
+          "chapter": "process_discovery",
+          "character_count": 3406
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,898 @@
+  [
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "What must be chosen as the case notion when flattening an object-centric event log?",
+    "expected_answer": "An object type.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 28,
+    "evidence_quote": "“flattening the event log” and always requires picking an object type as a case notion.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:29:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "ion (i.e., |#ot (e))|≥ 2). For example, when selecting object type pizza as a case notion, the first event in Table 2 will be mapped onto three events in the flattened event log. When selecting object type resource as a case notion, all create pizza base events are duplicated in the flattened event log. The replication of events can lead to misleading diagnostics. – Divergence: Events referring to different objects of a type not selected as the case notion may still be considered causally relate",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.6727952823365315,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:29:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "tentially leads to the following problems. – Deficiency: Events in the original event log that have no corresponding events in the flattened event log disappear from the data set (i.e., # ot (e)= ∅). For example, when selecting object type pizza as a case notion, the clean kitchen events disappear from the event log. – Convergence: Events referring to multiple objects of the selected type are replicated, possibly leading to unintentional duplication (i.e., |#ot (e))|≥ 2). For example, when selec",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.618699949075104,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:28:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 28,
+        "text": "ppings can be used to also map object types onto sets of objects . To apply classical process mining techniques, we need to convert the object- centric event data to traditional event data. For example, we need to convert Table2 into Table 1 if we pick object type pizza as a case notion. This is called “flattening the event log” and always requires picking an object type as a case notion. This can be formalized in a rather straightforward manner. Definition 5 (OCEL Conversion). Let L =( E, #,≺) ",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 19
+        },
+        "score": 0.5743567240356657,
+        "rank": 3,
+        "evidence_hit": true
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "What must be chosen as the case notion when flattening an object-centric event log?",
+    "expected_answer": "An object type.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 28,
+    "evidence_quote": "“flattening the event log” and always requires picking an object type as a case notion.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:29:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "For example, when selecting object type pizza as a case notion, the first event in Table 2 will be mapped onto three events in the flattened event log. When selecting object type resource as a case notion, all create pizza base events are duplicated in the flattened event log. The replication of events can lead to misleading diagnostics.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.6691523469648133,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:26:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 26,
+        "text": "3.4 Object-Centric Event Logs Table1 corresponds to a conventional “flat” event log where each event (i.e., row) refers to a case, activity, and timestamp. It is very natural to assume that an event has indeed a timestamp and refers to an activity. However, the assumption that it refers to precisely one case may cause problems [ 4]. Object-Centric Event Logs (OCEL) aim to overcome this limitation [ 22].",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 17
+        },
+        "score": 0.659856192819215,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:29:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "– Deficiency: Events in the original event log that have no corresponding events in the flattened event log disappear from the data set (i.e., # ot (e)= ∅). For example, when selecting object type pizza as a case notion, the clean kitchen events disappear from the event log. – Convergence: Events referring to multiple objects of the selected type are replicated, possibly leading to unintentional duplication (i.e., |#ot (e))|≥ 2).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.5784413130350212,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "What must be chosen as the case notion when flattening an object-centric event log?",
+    "expected_answer": "An object type.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 28,
+    "evidence_quote": "“flattening the event log” and always requires picking an object type as a case notion.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:29:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "For example, when selecting object type pizza as a case notion, the first event in Table 2 will be mapped onto three events in the flattened event log. When selecting object type resource as a case notion, all create pizza base events are duplicated in the flattened event log. The replication of events can lead to misleading diagnostics.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.6691523469648133,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:26:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 26,
+        "text": "3.4 Object-Centric Event Logs Table1 corresponds to a conventional “flat” event log where each event (i.e., row) refers to a case, activity, and timestamp. It is very natural to assume that an event has indeed a timestamp and refers to an activity. However, the assumption that it refers to precisely one case may cause problems [ 4]. Object-Centric Event Logs (OCEL) aim to overcome this limitation [ 22].",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 17
+        },
+        "score": 0.659856192819215,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:29:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "– Deficiency: Events in the original event log that have no corresponding events in the flattened event log disappear from the data set (i.e., # ot (e)= ∅). For example, when selecting object type pizza as a case notion, the clean kitchen events disappear from the event log. – Convergence: Events referring to multiple objects of the selected type are replicated, possibly leading to unintentional duplication (i.e., |#ot (e))|≥ 2).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.5784413130350212,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "condition",
+    "question": "Why can pairing start and complete events be ambiguous when two instances of the same activity overlap?",
+    "expected_answer": "There can be two ways to match the starts and completions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 32,
+    "evidence_quote": "However, in the trace ..., (a, start),..., (a, start),..., (a, complete),..., (a, complete),... , there are two possible ways to match starts and ends.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:32:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 32,
+        "text": "at e1 and e2 are two events that belong to the same activity instance and # type(e1) = start and # type(e2) = complete. # time (e2)− #time (e1) is the duration of the activity. Similarly, we can measure waiting times, etc. Note that classifiers can also use lifecycle information, e.g., an event e is identified by the pair (# act (e), #type(e)). This implies that when we discover process models, there may be activities ( a, start) and ( a, complete). Many XES logs contain lifecycle information, b",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 23
+        },
+        "score": 0.5439751785282392,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:29:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 29,
+        "text": "ase notion may still be considered causally related because a more coarse- grained object is shared. For example, when selecting object type location as a case notion, events corresponding to different pizzas are interleaved and one can no longer see the causal dependencies. The first two problems are easy to understand: events disappear com- pletely (deficiency) or are replicated leading to potentially misleading manage- ment information (convergence). The problem of divergence is more subtle. ",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 20
+        },
+        "score": 0.4657031770880149,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:32:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 32,
+        "text": "e). Many XES logs contain lifecycle information, but few contain explicit activity instances. This implies that heuristics are needed to link events. For example, (a, start) is coupled to the first ( a, complete) following it. However, in the trace ..., (a, start),..., (a, start),..., (a, complete),..., (a, complete),... , there are two possible ways to match starts and ends. Fortunately, it is often possible to extract activity instances from the original data source. 4 Different Types of Proce",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 23
+        },
+        "score": 0.45531415537845554,
+        "rank": 3,
+        "evidence_hit": true
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "condition",
+    "question": "Why can pairing start and complete events be ambiguous when two instances of the same activity overlap?",
+    "expected_answer": "There can be two ways to match the starts and completions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 32,
+    "evidence_quote": "However, in the trace ..., (a, start),..., (a, start),..., (a, complete),..., (a, complete),... , there are two possible ways to match starts and ends.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:32:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 32,
+        "text": "For example, assume that e1 and e2 are two events that belong to the same activity instance and # type(e1) = start and # type(e2) = complete. # time (e2)− #time (e1) is the duration of the activity. Similarly, we can measure waiting times, etc. Note that classifiers can also use lifecycle information, e.g., an event e is identified by the pair (# act (e), #type(e)). This implies that when we discover process models, there may be activities ( a, start) and ( a, complete).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 23
+        },
+        "score": 0.5583249440597792,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:33:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "one case and activity b is directly followed by activity a in another case, then a loop is introduced. The techniques mentioned above address this problem and are able to uncover concurrency. However, there are many other challenges. The event log may contain infrequent behavior , i.e., traces or patterns which are less frequent compared to the mainstream behavior. Should this infrequent behavior be included or not? Hence, most approaches are parameterized to discard rare behavior.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.48884198504384613,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:31:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 31,
+        "text": "For example, an activity instance",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 22
+        },
+        "score": 0.4849166560898467,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "condition",
+    "question": "Why can pairing start and complete events be ambiguous when two instances of the same activity overlap?",
+    "expected_answer": "There can be two ways to match the starts and completions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 32,
+    "evidence_quote": "However, in the trace ..., (a, start),..., (a, start),..., (a, complete),..., (a, complete),... , there are two possible ways to match starts and ends.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:32:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 32,
+        "text": "For example, assume that e1 and e2 are two events that belong to the same activity instance and # type(e1) = start and # type(e2) = complete. # time (e2)− #time (e1) is the duration of the activity. Similarly, we can measure waiting times, etc. Note that classifiers can also use lifecycle information, e.g., an event e is identified by the pair (# act (e), #type(e)). This implies that when we discover process models, there may be activities ( a, start) and ( a, complete).",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 23
+        },
+        "score": 0.5583249440597792,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:33:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 33,
+        "text": "one case and activity b is directly followed by activity a in another case, then a loop is introduced. The techniques mentioned above address this problem and are able to uncover concurrency. However, there are many other challenges. The event log may contain infrequent behavior , i.e., traces or patterns which are less frequent compared to the mainstream behavior. Should this infrequent behavior be included or not? Hence, most approaches are parameterized to discard rare behavior.",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 24
+        },
+        "score": 0.48884198504384613,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:31:paragraph:5",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 31,
+        "text": "For example, an activity instance",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 22
+        },
+        "score": 0.4849166560898467,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, which filtering method is applied last to prune the graph?",
+    "expected_answer": "Arc-based filtering, which prunes the DFG after it is built.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 54,
+    "evidence_quote": "Finally, arc-based filtering is used to prune the DFG.",
+    "filter": {
+      "chapter": "process_discovery"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:48:fixed:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 48,
+        "text": ". Instead, we would like to bring forward the essence of process discovery from event data, and introduce the main prin- ciples in an intuitive manner. The remainder of this chapter is organized as follows. Section 2 presents a baseline approach that computes a Directly-Follows Graph (DFG). This approach is simple and highly scalable, but has many limitations (e.g., producing complex underfitting process models) [2]. In Sect. 3, we elaborate on the challenges of process discovery. Section 4 disc",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 40
+        },
+        "score": 0.5812494293215267,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:48:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 48,
+        "text": "ther discovery approaches (e.g., using state-based or language-based regions). 2 Directly-Follows Graphs: A Baseline Approach In this chapter, we present a very simple discovery approach that is supported by most (if not all) process mining tools: Constructing a so-called Directly-Follows Graph (DFG) by simply counting how often one activity is followed by another activity (see Fig. 2(b)). We use this to also introduce filtering techniques to remove infrequent activ- ities, infrequent variants, ",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 40
+        },
+        "score": 0.5582781829064032,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:55:fixed:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 55,
+        "text": "Foundations of Process Discovery 47 – The ordering of filters may greatly impact the result. As shown before: filter var ( filter act (L, τ act ),τ var ) = filter act (filter var (L, τ var ),τ act ). If a tool provides mul- tiple sliders, it is important to understand how these interact and what was left out. – Applying projections to event logs is computationally expensive. Therefore, process mining tools may provide shortcuts that operate directly on the DFG without filter- ing the event log. ",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 47
+        },
+        "score": 0.5562792984941693,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": true,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, which filtering method is applied last to prune the graph?",
+    "expected_answer": "Arc-based filtering, which prunes the DFG after it is built.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 54,
+    "evidence_quote": "Finally, arc-based filtering is used to prune the DFG.",
+    "filter": {
+      "chapter": "process_discovery"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:48:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 48,
+        "text": "Instead, we would like to bring forward the essence of process discovery from event data, and introduce the main prin- ciples in an intuitive manner. The remainder of this chapter is organized as follows. Section 2 presents a baseline approach that computes a Directly-Follows Graph (DFG). This approach is simple and highly scalable, but has many limitations (e.g., producing complex underfitting process models) [2]. In Sect. 3, we elaborate on the challenges of process discovery.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 40
+        },
+        "score": 0.5867267183138585,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:55:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 55,
+        "text": "Foundations of Process Discovery 47 – The ordering of filters may greatly impact the result. As shown before: filter var ( filter act (L, τ act ),τ var ) = filter act (filter var (L, τ var ),τ act ). If a tool provides mul- tiple sliders, it is important to understand how these interact and what was left out. – Applying projections to event logs is computationally expensive. Therefore, process mining tools may provide shortcuts that operate directly on the DFG without filter- ing the event log.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 47
+        },
+        "score": 0.5579056734765624,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "The above examples show that, using filtering, it is possible to separate the normal (i.e., frequent) from the exceptional (i.e., infrequent) behavior. This is vital in the con- text of process discovery and can be combined with the later bottom-up and top-down discovery approaches. 3 Challenges After introducing a baseline discovery algorithm and various filtering approaches, it is possible to better explain why process discovery is so challenging.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.5556585814094298,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": true,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, which filtering method is applied last to prune the graph?",
+    "expected_answer": "Arc-based filtering, which prunes the DFG after it is built.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 54,
+    "evidence_quote": "Finally, arc-based filtering is used to prune the DFG.",
+    "filter": {
+      "chapter": "process_discovery"
+    },
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:48:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 48,
+        "text": "Instead, we would like to bring forward the essence of process discovery from event data, and introduce the main prin- ciples in an intuitive manner. The remainder of this chapter is organized as follows. Section 2 presents a baseline approach that computes a Directly-Follows Graph (DFG). This approach is simple and highly scalable, but has many limitations (e.g., producing complex underfitting process models) [2]. In Sect. 3, we elaborate on the challenges of process discovery.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 40
+        },
+        "score": 0.5867267183138585,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:55:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 55,
+        "text": "Foundations of Process Discovery 47 – The ordering of filters may greatly impact the result. As shown before: filter var ( filter act (L, τ act ),τ var ) = filter act (filter var (L, τ var ),τ act ). If a tool provides mul- tiple sliders, it is important to understand how these interact and what was left out. – Applying projections to event logs is computationally expensive. Therefore, process mining tools may provide shortcuts that operate directly on the DFG without filter- ing the event log.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 47
+        },
+        "score": 0.5579056734765624,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:paragraph:1",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "The above examples show that, using filtering, it is possible to separate the normal (i.e., frequent) from the exceptional (i.e., infrequent) behavior. This is vital in the con- text of process discovery and can be combined with the later bottom-up and top-down discovery approaches. 3 Challenges After introducing a baseline discovery algorithm and various filtering approaches, it is possible to better explain why process discovery is so challenging.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.5556585814094298,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": true,
+    "strategy": "C",
+    "applied_filter": {
+      "chapter": "process_discovery"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "direct",
+    "question": "In Figure 8's filtered example, what percentages of cases and variants do the six retained variants cover?",
+    "expected_answer": "57% of cases and 3% of variants.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 57,
+    "evidence_quote": "There are six variants having a frequency above 100. These cover 57% of all cases, but only 3% of all variants.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:56:fixed:3",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 56,
+        "text": " fraction of variants explains most of the cases observed. This is also referred to as the “80/20 rule”, although the numbers 80 and 20 are arbitrary. For our",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 48
+        },
+        "score": 0.6387072489188385,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:15:fixed:7",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "he remaining 20% cannot be discarded since these cases cover the remaining 80% of the process variants and often also the majority of performance and compliance problems. Sometimes event logs are even more unbalanced, e.g., it is not uncommon to find logs where 95% of the cases can be described by less than 5% of the process variants. In the latter case,",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.5975009211532256,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:fixed:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "50 W. M. P . van der Aalst already 51% of all cases. The DFG discDFG (filter var (filter act (L, τ act ),τ var )) with τact = 1000 and τvar = 100 combines the activity-based filter used in Fig. 7 and the variant-based filter used in Fig. 8. The resulting DFG (not shown) explains 1672 of the 1856 cases (90%) and 7065 of 11761 events (60%) using only five variants. The above examples show that, using filtering, it is possible to separate the normal (i.e., frequent) from the exceptional (i.e., infr",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.5809984451622817,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "direct",
+    "question": "In Figure 8's filtered example, what percentages of cases and variants do the six retained variants cover?",
+    "expected_answer": "57% of cases and 3% of variants.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 57,
+    "evidence_quote": "There are six variants having a frequency above 100. These cover 57% of all cases, but only 3% of all variants.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:56:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 56,
+        "text": "These are the variants that have a frequency above 100, i.e., the depicted DFG is discDFG (filter var (L3,τ var )) with τvar = 100 . There are 1856 cases distributed over 197 variants. The top six variants (i.e., 3% of all variants) cover 1058 cases (i.e., 57%). We also computed the DFG discDFG (filter var (L3,τ var )) with τvar =1 0 . There are 22 variants meeting this lower threshold (i.e., 11% of all variants) covering 1483 cases (i.e., 80%).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 48
+        },
+        "score": 0.5925491929652055,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "50 W. M. P . van der Aalst already 51% of all cases. The DFG discDFG (filter var (filter act (L, τ act ),τ var )) with τact = 1000 and τvar = 100 combines the activity-based filter used in Fig. 7 and the variant-based filter used in Fig. 8. The resulting DFG (not shown) explains 1672 of the 1856 cases (90%) and 7065 of 11761 events (60%) using only five variants.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.5859650043740501,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:15:paragraph:7",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "However, the remaining 20% cannot be discarded since these cases cover the remaining 80% of the process variants and often also the majority of performance and compliance problems. Sometimes event logs are even more unbalanced, e.g., it is not uncommon to find logs where 95% of the cases can be described by less than 5% of the process variants. In the latter case,",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.5667464979931578,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "direct",
+    "question": "In Figure 8's filtered example, what percentages of cases and variants do the six retained variants cover?",
+    "expected_answer": "57% of cases and 3% of variants.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 57,
+    "evidence_quote": "There are six variants having a frequency above 100. These cover 57% of all cases, but only 3% of all variants.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:56:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 56,
+        "text": "These are the variants that have a frequency above 100, i.e., the depicted DFG is discDFG (filter var (L3,τ var )) with τvar = 100 . There are 1856 cases distributed over 197 variants. The top six variants (i.e., 3% of all variants) cover 1058 cases (i.e., 57%). We also computed the DFG discDFG (filter var (L3,τ var )) with τvar =1 0 . There are 22 variants meeting this lower threshold (i.e., 11% of all variants) covering 1483 cases (i.e., 80%).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 48
+        },
+        "score": 0.5925491929652055,
+        "rank": 1,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:58:paragraph:0",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 58,
+        "text": "50 W. M. P . van der Aalst already 51% of all cases. The DFG discDFG (filter var (filter act (L, τ act ),τ var )) with τact = 1000 and τvar = 100 combines the activity-based filter used in Fig. 7 and the variant-based filter used in Fig. 8. The resulting DFG (not shown) explains 1672 of the 1856 cases (90%) and 7065 of 11761 events (60%) using only five variants.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 50
+        },
+        "score": 0.5859650043740501,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:15:paragraph:7",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 15,
+        "text": "However, the remaining 20% cannot be discarded since these cases cover the remaining 80% of the process variants and often also the majority of performance and compliance problems. Sometimes event logs are even more unbalanced, e.g., it is not uncommon to find logs where 95% of the cases can be described by less than 5% of the process variants. In the latter case,",
+        "metadata": {
+          "chapter": "overview",
+          "printed_page": 6
+        },
+        "score": 0.5667464979931578,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": false,
+    "evidence_hit_at_3": false,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Why can the basic Inductive Miner become impractical on very large event logs?",
+    "expected_answer": "It repeatedly creates sublogs.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 79,
+    "evidence_quote": "The basic inductive mining algorithm may become intractable for huge event logs, because repeatedly sublogs need to be created.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:79:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 79,
+        "text": " with infrequent behavior [23]. The basic inductive mining algorithm may become intractable for huge event logs, because repeatedly sublogs need to be created. There are also more scalable variants that make a single pass through the event log and use a single overall DFG [24]. These provide fewer formal guarantees. The basic inductive mining algorithm has strong guarantees. For example, discIM (L) guarantees perfect replay fitness (i.e., 100% recall). Formally, var (L) ⊆ lang(discIM (L)). See [",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 71
+        },
+        "score": 0.685477078432582,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:69:fixed:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 69,
+        "text": "tering, the basic Alpha algorithm and basic inductive mining algo- rithm will not be very usable in real-life settings. Therefore, we assume that the event logs have been preprocessed before applying “bottom-up” or “top-down” discovery algorithms. Definition 19 (Basic Log Preprocessing). Let L ∈B (Uact∗) be an event log. Given the thresholds τact ∈ N and τvar ∈ N: Lτact ,τvar = filter var (filter act (L, τ act ),τ var ). In the remainder, we assume that the event log was preprocessed and that we",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 61
+        },
+        "score": 0.58493127625241,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:78:fixed:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 78,
+        "text": " apply the parallel cut (∧,A good,A bad ) followed by cut (⊕,A 1,A 2,...A k) and cut (τ, a 1,a 2,...,a n) applied to the two sublogs. There are many other fallthroughs, e.g., separating the empty traces from the rest. Definition 24 (Inductive Mining Algorithm). The basic inductive mining algorithm discIM ∈B (Uact∗) →U Q returns a process tree discIM (L) for any event log L ∈ B(Uact∗) using the four types of cuts, log decomposition, and fallthroughs described before. Fig. 18. Process tree discIM ",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 70
+        },
+        "score": 0.5426704853539639,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "A",
+    "applied_filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Why can the basic Inductive Miner become impractical on very large event logs?",
+    "expected_answer": "It repeatedly creates sublogs.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 79,
+    "evidence_quote": "The basic inductive mining algorithm may become intractable for huge event logs, because repeatedly sublogs need to be created.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:79:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 79,
+        "text": "The basic inductive mining algorithm may become intractable for huge event logs, because repeatedly sublogs need to be created. There are also more scalable variants that make a single pass through the event log and use a single overall DFG [24]. These provide fewer formal guarantees. The basic inductive mining algorithm has strong guarantees. For example, discIM (L) guarantees perfect replay fitness (i.e., 100% recall). Formally, var (L) ⊆ lang(discIM (L)).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 71
+        },
+        "score": 0.7172365006959628,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:69:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 69,
+        "text": "Without filtering, the basic Alpha algorithm and basic inductive mining algo- rithm will not be very usable in real-life settings. Therefore, we assume that the event logs have been preprocessed before applying “bottom-up” or “top-down” discovery algorithms. Definition 19 (Basic Log Preprocessing). Let L ∈B (Uact∗) be an event log. Given the thresholds τact ∈ N and τvar ∈ N: Lτact ,τvar = filter var (filter act (L, τ act ),τ var ).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 61
+        },
+        "score": 0.5711866207868455,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:78:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 78,
+        "text": "Then one can first apply the parallel cut (∧,A good,A bad ) followed by cut (⊕,A 1,A 2,...A k) and cut (τ, a 1,a 2,...,a n) applied to the two sublogs. There are many other fallthroughs, e.g., separating the empty traces from the rest. Definition 24 (Inductive Mining Algorithm). The basic inductive mining algorithm discIM ∈B (Uact∗) →U Q returns a process tree discIM (L) for any event log L ∈ B(Uact∗) using the four types of cuts, log decomposition, and fallthroughs described before. Fig. 18.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 70
+        },
+        "score": 0.5588506225049656,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "B",
+    "applied_filter": null
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Why can the basic Inductive Miner become impractical on very large event logs?",
+    "expected_answer": "It repeatedly creates sublogs.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 79,
+    "evidence_quote": "The basic inductive mining algorithm may become intractable for huge event logs, because repeatedly sublogs need to be created.",
+    "hits": [
+      {
+        "chunk_id": "process-mining-handbook-2022:79:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 79,
+        "text": "The basic inductive mining algorithm may become intractable for huge event logs, because repeatedly sublogs need to be created. There are also more scalable variants that make a single pass through the event log and use a single overall DFG [24]. These provide fewer formal guarantees. The basic inductive mining algorithm has strong guarantees. For example, discIM (L) guarantees perfect replay fitness (i.e., 100% recall). Formally, var (L) ⊆ lang(discIM (L)).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 71
+        },
+        "score": 0.7172365006959628,
+        "rank": 1,
+        "evidence_hit": true
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:69:paragraph:2",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 69,
+        "text": "Without filtering, the basic Alpha algorithm and basic inductive mining algo- rithm will not be very usable in real-life settings. Therefore, we assume that the event logs have been preprocessed before applying “bottom-up” or “top-down” discovery algorithms. Definition 19 (Basic Log Preprocessing). Let L ∈B (Uact∗) be an event log. Given the thresholds τact ∈ N and τvar ∈ N: Lτact ,τvar = filter var (filter act (L, τ act ),τ var ).",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 61
+        },
+        "score": 0.5711866207868455,
+        "rank": 2,
+        "evidence_hit": false
+      },
+      {
+        "chunk_id": "process-mining-handbook-2022:78:paragraph:4",
+        "document_id": "process-mining-handbook-2022",
+        "source": "https://doi.org/10.1007/978-3-031-08848-3",
+        "page": 78,
+        "text": "Then one can first apply the parallel cut (∧,A good,A bad ) followed by cut (⊕,A 1,A 2,...A k) and cut (τ, a 1,a 2,...,a n) applied to the two sublogs. There are many other fallthroughs, e.g., separating the empty traces from the rest. Definition 24 (Inductive Mining Algorithm). The basic inductive mining algorithm discIM ∈B (Uact∗) →U Q returns a process tree discIM (L) for any event log L ∈ B(Uact∗) using the four types of cuts, log decomposition, and fallthroughs described before. Fig. 18.",
+        "metadata": {
+          "chapter": "process_discovery",
+          "printed_page": 70
+        },
+        "score": 0.5588506225049656,
+        "rank": 3,
+        "evidence_hit": false
+      }
+    ],
+    "hit_at_1": true,
+    "evidence_hit_at_3": true,
+    "filter_compliant": null,
+    "strategy": "C",
+    "applied_filter": null
+  }
+]

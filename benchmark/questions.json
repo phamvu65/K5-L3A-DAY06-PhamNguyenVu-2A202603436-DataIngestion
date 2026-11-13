@@ -1,0 +1,211 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which two kinds of problems can combining process modeling with event data help address?",
+    "expected_answer": "Compliance and performance problems.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 12,
+    "evidence_quote": "new means to tackle compliance and performance problems."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "direct",
+    "question": "How is process science defined in the handbook?",
+    "expected_answer": "The interdisciplinary study of continuous change.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 14,
+    "evidence_quote": "Process science is the interdisciplinary study of continuous change."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What can be added after discovering the control-flow to make the process model stochastic?",
+    "expected_answer": "Probabilities and delay distributions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 16,
+    "evidence_quote": "the process model can be turned into a stochastic model that includes probabilities and delay distributions."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what must be true of a transition's input places for the transition to be enabled?",
+    "expected_answer": "All input places must be marked.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 18,
+    "evidence_quote": "A transition is enabled if all input places are marked."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "condition",
+    "question": "In the pizza Petri net, what happens to the mushrooms transition when salami consumes the shared token?",
+    "expected_answer": "The mushrooms transition is disabled.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 20,
+    "evidence_quote": "A new transition am (add mushrooms) has been added. Transitions as and am share an input place. If the input place is marked, then both transitions are enabled, but only one of them can occur. If as consumes the token from the shared input place, then am gets disabled."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which three event attributes are sufficient to discover and check the control-flow perspective?",
+    "expected_answer": "Case, activity, and timestamp.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 22,
+    "evidence_quote": "case (refers to a process instance), activity (refers to the operation, action, or task), and timestamp (when did the event happen). These three attributes are enough to discover and check the control-flow perspective."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "condition",
+    "question": "When converting to a simplified event log, which events are excluded because of missing attributes?",
+    "expected_answer": "Events missing a case or an activity attribute.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 26,
+    "evidence_quote": "Events without a case or activity attribute are ignored in the transformation process."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "Which side of an organization does Purchase-to-Pay concern, and which side does Order-to-Cash concern?",
+    "expected_answer": "Purchase-to-Pay is the buy-side. Order-to-Cash is the sell-side.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 30,
+    "evidence_quote": "The P2P process is concerned with the buy-side of an organization. The O2C process is concerned with the sell-side of a company."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the overview chapter selected, what inputs does conformance checking need and what does it identify?",
+    "expected_answer": "An event log and a process model. It identifies where they disagree.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 34,
+    "evidence_quote": "Conformance checking requires both an event log and a process model as input. The goal is to indicate where log and model disagree.",
+    "filter": {
+      "chapter": "overview"
+    }
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What input lets comparative process mining compare locations, time periods, or case categories?",
+    "expected_answer": "Multiple event logs, for example logs from different locations, periods, or case categories.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 36,
+    "evidence_quote": "Comparative process mining uses as input multiple event logs, e.g., L1,L 2,..., Ln ∈B (Uact∗). These event logs may refer to different locations, periods, or categories of cases."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "direct",
+    "question": "What is the input and intended output of process discovery?",
+    "expected_answer": "An event log of example behaviors is used to create a model of the underlying process.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 45,
+    "evidence_quote": "The goal is to take an event log containing example behaviors and create a process model that adequately describes the underlying process."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "Why is a simplified event log represented as a multiset of traces?",
+    "expected_answer": "Several cases can share a trace. A multiset retains those repeated occurrences.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 46,
+    "evidence_quote": "Note that there may be many cases that have the same trace. Therefore, we represent an event log as a multiset of traces."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What behavior does the baseline discovery algorithm ensure the discovered model permits?",
+    "expected_answer": "All observed behavior.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 50,
+    "evidence_quote": "baseline discovery algorithm that ensures that all observed behavior is possible according to the discovered process model."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, when does the baseline DFG add an arc from activity a1 to a2?",
+    "expected_answer": "When a1 is directly followed by a2 at least once in the log.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 52,
+    "evidence_quote": "connected by a directed arc if a1 is directly followed by a2 at least once in the log.",
+    "filter": {
+      "chapter": "process_discovery"
+    }
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "condition",
+    "question": "Does activity-based filtering change the number of traces if every activity is removed?",
+    "expected_answer": "No. The number of traces is preserved.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 53,
+    "evidence_quote": "the number of traces is not affected by activity-based filtering (even when all activities are removed)."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "type": "direct",
+    "question": "What must be chosen as the case notion when flattening an object-centric event log?",
+    "expected_answer": "An object type.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 28,
+    "evidence_quote": "“flattening the event log” and always requires picking an object type as a case notion."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "type": "condition",
+    "question": "Why can pairing start and complete events be ambiguous when two instances of the same activity overlap?",
+    "expected_answer": "There can be two ways to match the starts and completions.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 32,
+    "evidence_quote": "However, in the trace ..., (a, start),..., (a, start),..., (a, complete),..., (a, complete),... , there are two possible ways to match starts and ends."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "type": "metadata",
+    "question": "With the process discovery chapter selected, which filtering method is applied last to prune the graph?",
+    "expected_answer": "Arc-based filtering, which prunes the DFG after it is built.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 54,
+    "evidence_quote": "Finally, arc-based filtering is used to prune the DFG.",
+    "filter": {
+      "chapter": "process_discovery"
+    }
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "type": "direct",
+    "question": "In Figure 8's filtered example, what percentages of cases and variants do the six retained variants cover?",
+    "expected_answer": "57% of cases and 3% of variants.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 57,
+    "evidence_quote": "There are six variants having a frequency above 100. These cover 57% of all cases, but only 3% of all variants."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Why can the basic Inductive Miner become impractical on very large event logs?",
+    "expected_answer": "It repeatedly creates sublogs.",
+    "gold_source_id": "process-mining-handbook-2022",
+    "gold_page": 79,
+    "evidence_quote": "The basic inductive mining algorithm may become intractable for huge event logs, because repeatedly sublogs need to be created."
+  }
+]
