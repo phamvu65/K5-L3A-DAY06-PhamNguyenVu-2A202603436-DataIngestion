@@ -60,6 +60,8 @@ Chi phí tính theo 0,02 USD trên một triệu token đầu vào. Thời gian 
 
 Mẫu coherence lấy chunk chứa vị trí ký tự đầu tiên trên 10 trang đầu trong manifest (PDF 12–21), dùng cùng vị trí cho A, B và C. C dùng cùng chunk và cùng điểm với B. Grounding đọc cả ba đoạn của mỗi lượt test và chấm 0 khi thiếu bằng chứng trả lời, 1 khi chỉ đủ một phần và 2 khi đủ để trả lời và truy nguồn. Metadata được đối chiếu từng kết quả với DOI, số trang và chương trong manifest, nhãn trang của PDF và nội dung chunk tái tạo từ trang khai báo. Tỷ lệ tuân thủ filter tính trên số câu có yêu cầu phạm vi, kể cả khi A hoặc B tình cờ trả về đủ ba chunk đúng chương.
 
+Sinh viên đã rà soát lý do chấm coherence và grounding. Có thể đối chiếu từng nhãn với trang PDF và đoạn văn trong trace. [Coherence](../../results/coherence_audit.csv) · [Grounding](../../results/grounding_audit.csv) · [Metadata](../../results/metadata_audit.csv) · [Trace dev](../../results/dev_traces.json) · [Trace test](../../results/test_traces.json) · [Nhật ký lỗi](../../results/error_log.md)
+
 ### Kết quả truy xuất theo ngôn ngữ câu hỏi
 
 | Cấu hình | Dev Hit@1 Anh → Việt | Dev Evidence Hit@3 Anh → Việt | Test Hit@1 Anh → Việt | Test Evidence Hit@3 Anh → Việt |
@@ -75,6 +77,7 @@ Lượt so sánh dùng 341 token đầu vào cho 20 câu tiếng Anh và 904 tok
 - **A và B.** B tăng coherence từ 1,0 lên 1,6 trên mẫu và dùng ít hơn 5.323 token cho chunk. A đạt 3/5 Evidence Hit@3 trên test so với 1/5 của B. Ở `q17`, A hạng 3 (PDF 32, trang in 23) chứa ví dụ hai sự kiện bắt đầu và hai sự kiện hoàn thành có hai cách ghép. B hạng 1 cũng lấy PDF 32 nhưng chỉ giải thích vòng đời sự kiện. Phần ví dụ chồng lấn nằm ngoài đoạn trả về.
 - **B và C.** Ở `q14` trên dev, filter đưa chunk trang PDF 52 từ hạng 2 lên hạng 1 sau khi loại chunk thuộc chương tổng quan. Ở `q18` trên test, cả B và C trả cùng ba trang PDF 48, 55, 58. Chúng đều đúng chương, nhưng thiếu bằng chứng ở PDF 54 (trang in 46) xác định arc-based filtering là bước cuối. Bộ lọc thu hẹp phạm vi, còn thứ hạng trong phạm vi đó phụ thuộc vào độ tương đồng của vector.
 - **Giới hạn khi đối sánh evidence.** Ở `q19`, B và C trả đoạn ở PDF 56 (trang in 48) nêu đúng hai tỷ lệ. Gold ban đầu chỉ ghi PDF 57 (trang in 49), nên lượt đó được chấm grounding 2 và vẫn trượt Evidence Hit@3 tự động. Nên kiểm tra các vị trí bằng chứng tương đương trước lần đánh giá sau và ghi nhận bằng chứng đã phát hiện khi phân tích kết quả hiện tại.
+- **Đoạn trích bị chia qua nhiều chunk.** Khi kiểm tra toàn bộ chunk trên trang nguồn, không có chunk nào chứa trọn đoạn trích chuẩn của `q10` ở A hoặc của `q05` và `q12` ở B/C. Các trường hợp này không thể đạt Evidence Hit@3 theo tiêu chí đối sánh hiện tại ngay cả khi top 3 có đúng trang. Kết quả làm rõ ảnh hưởng của ranh giới chunk đến chỉ số.
 
 Chọn C theo quy tắc trên dev. A có Evidence Hit@3 cao nhất trên tập test hiện tại. Tập test chỉ có năm câu, trong đó một câu yêu cầu lọc, nên một câu có thể làm tỷ lệ thay đổi 20 điểm phần trăm. Mẫu coherence chỉ lấy đầu trang và nằm trong chương tổng quan, nên kết quả chưa đại diện cho giữa trang hoặc chương thứ hai. Nếu mở rộng, có thể định trước các vị trí mẫu ở cả hai chương, cải thiện nhận diện ranh giới câu quanh chữ viết tắt như `Fig.`, rồi đo lại trên một tập test mới.
 
