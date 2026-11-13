@@ -60,7 +60,7 @@ Chi phí tính theo 0,02 USD trên một triệu token đầu vào. Thời gian 
 
 Mẫu coherence lấy chunk chứa vị trí ký tự đầu tiên trên 10 trang đầu trong manifest (PDF 12–21), dùng cùng vị trí cho A, B và C. C dùng cùng chunk và cùng điểm với B. Grounding đọc cả ba đoạn của mỗi lượt test và chấm 0 khi thiếu bằng chứng trả lời, 1 khi chỉ đủ một phần và 2 khi đủ để trả lời và truy nguồn. Metadata được đối chiếu từng kết quả với DOI, số trang và chương trong manifest, nhãn trang của PDF và nội dung chunk tái tạo từ trang khai báo. Tỷ lệ tuân thủ filter tính trên số câu có yêu cầu phạm vi, kể cả khi A hoặc B tình cờ trả về đủ ba chunk đúng chương.
 
-Sinh viên đã rà soát lý do chấm coherence và grounding. Có thể đối chiếu từng nhãn với trang PDF và đoạn văn trong trace. [Coherence](../../results/coherence_audit.csv) · [Grounding](../../results/grounding_audit.csv) · [Metadata](../../results/metadata_audit.csv) · [Trace dev](../../results/dev_traces.json) · [Trace test](../../results/test_traces.json) · [Nhật ký lỗi](../../results/error_log.md)
+Tôi đã rà soát lý do chấm coherence và grounding. Có thể đối chiếu từng nhãn với trang PDF và đoạn văn trong trace. [Coherence](../../results/coherence_audit.csv) · [Grounding](../../results/grounding_audit.csv) · [Metadata](../../results/metadata_audit.csv) · [Trace dev](../../results/dev_traces.json) · [Trace test](../../results/test_traces.json) · [Nhật ký lỗi](../../results/error_log.md)
 
 ### Kết quả truy xuất theo ngôn ngữ câu hỏi
 
